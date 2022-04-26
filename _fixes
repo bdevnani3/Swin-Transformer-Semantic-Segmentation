@@ -1,0 +1,4 @@
+1. Comment out mmcv version check
+2. add "_seg.png" to Swin-Transformer-Semantic-Segmentation/mmseg/datasets/ade.py
+3. line 135 Swin-Transformer-Semantic-Segmentation/mmseg/datasets/pipelines/loading.py
+4. Fix inplace operations in Swin-Transformer-Semantic-Segmentation/mmseg/models/decode_heads/uper_head.py
