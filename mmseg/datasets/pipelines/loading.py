@@ -132,8 +132,10 @@ class LoadAnnotations(object):
         gt_semantic_seg = mmcv.imfrombytes(
             img_bytes, flag='unchanged',
             backend=self.imdecode_backend).squeeze().astype(np.uint8)
-        gt_semantic_seg = gt_semantic_seg[:,:,0]
-        # modify if custom classes
+        def rgb2gray(rgb):
+            return np.dot(rgb[...,:3], [0.2989, 0.5870, 0.1140])
+        # gt_semantic_seg = rgb2gray(gt_semantic_seg)
+	# modify if custom classes
         if results.get('label_map', None) is not None:
             for old_id, new_id in results['label_map'].items():
                 gt_semantic_seg[gt_semantic_seg == old_id] = new_id
@@ -143,6 +145,7 @@ class LoadAnnotations(object):
             gt_semantic_seg[gt_semantic_seg == 0] = 255
             gt_semantic_seg = gt_semantic_seg - 1
             gt_semantic_seg[gt_semantic_seg == 254] = 255
+        # gt_semantic_seg = rgb2gray(gt_semantic_seg)
         results['gt_semantic_seg'] = gt_semantic_seg
         results['seg_fields'].append('gt_semantic_seg')
         return results

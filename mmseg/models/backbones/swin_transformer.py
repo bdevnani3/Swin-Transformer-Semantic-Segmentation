@@ -174,6 +174,8 @@ class SwinTransformerBlock(nn.Module):
     def __init__(self, dim, num_heads, window_size=7, shift_size=0,
                  mlp_ratio=4., qkv_bias=True, qk_scale=None, drop=0., attn_drop=0., drop_path=0.,
                  act_layer=nn.GELU, norm_layer=nn.LayerNorm):
+
+
         super().__init__()
         self.dim = dim
         self.num_heads = num_heads
@@ -496,7 +498,7 @@ class SwinTransformer(nn.Module):
                  frozen_stages=-1,
                  use_checkpoint=False):
         super().__init__()
-
+        # import pdb; pdb.set_trace()
         self.pretrain_img_size = pretrain_img_size
         self.num_layers = len(depths)
         self.embed_dim = embed_dim
@@ -511,13 +513,13 @@ class SwinTransformer(nn.Module):
             norm_layer=norm_layer if self.patch_norm else None)
 
         # absolute position embedding
-        if self.ape:
-            pretrain_img_size = to_2tuple(pretrain_img_size)
-            patch_size = to_2tuple(patch_size)
-            patches_resolution = [pretrain_img_size[0] // patch_size[0], pretrain_img_size[1] // patch_size[1]]
+        # if self.ape:
+        #     pretrain_img_size = to_2tuple(pretrain_img_size)
+        #     patch_size = to_2tuple(patch_size)
+        #     patches_resolution = [pretrain_img_size[0] // patch_size[0], pretrain_img_size[1] // patch_size[1]]
 
-            self.absolute_pos_embed = nn.Parameter(torch.zeros(1, embed_dim, patches_resolution[0], patches_resolution[1]))
-            trunc_normal_(self.absolute_pos_embed, std=.02)
+        #     self.absolute_pos_embed = nn.Parameter(torch.zeros(1, embed_dim, patches_resolution[0], patches_resolution[1]))
+        #     trunc_normal_(self.absolute_pos_embed, std=.02)
 
         self.pos_drop = nn.Dropout(p=drop_rate)
 
@@ -609,6 +611,7 @@ class SwinTransformer(nn.Module):
         else:
             x = x.flatten(2).transpose(1, 2)
         x = self.pos_drop(x)
+        # import pdb; pdb.set_trace()
 
         outs = []
         for i in range(self.num_layers):
