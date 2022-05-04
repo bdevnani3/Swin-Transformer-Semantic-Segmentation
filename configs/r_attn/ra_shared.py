@@ -20,7 +20,7 @@ model = dict(
         drop_path_rate=0.3,
         patch_norm=True,
         mechanism_instructions={
-            "type": "reverse",
+            "type": "shared_forward_and_reverse",
             "reduce_reverse": True,
             "reverse_activation": "gelu",
             "hypernetwork_bias": True,
