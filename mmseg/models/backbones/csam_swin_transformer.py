@@ -702,7 +702,7 @@ class SwinTransformerBlock(nn.Module):
         norm_layer=nn.LayerNorm,
         mechanism_instructions=None,
     ):
-
+        # import pdb; pdb.set_trace()
         super().__init__()
         self.dim = dim
         self.num_heads = num_heads
@@ -989,8 +989,13 @@ class PatchEmbed(nn.Module):
         self, patch_size=4, in_chans=3, embed_dim=96, norm_layer=None, img_size=None
     ):
         super().__init__()
+        img_size = to_2tuple(img_size)
         patch_size = to_2tuple(patch_size)
+        patches_resolution = [img_size[0] // patch_size[0], img_size[1] // patch_size[1]]
+        self.img_size = img_size
         self.patch_size = patch_size
+        self.patches_resolution = patches_resolution
+        self.num_patches = patches_resolution[0] * patches_resolution[1]
 
         self.in_chans = in_chans
         self.embed_dim = embed_dim
@@ -1076,7 +1081,6 @@ class BiAttnSwinTransformer(nn.Module):
         **kwargs,
     ):
 
-        # import pdb; pdb.set_trace()
         super().__init__()
 
         self.num_classes = num_classes
@@ -1098,21 +1102,7 @@ class BiAttnSwinTransformer(nn.Module):
             norm_layer=norm_layer if self.patch_norm else None,
         )
 
-        # num_patches = self.patch_embed.num_patches
-        # patches_resolution = self.patch_embed.patches_resolution
-        patch_size = to_2tuple(patch_size)
-        img_size = to_2tuple(img_size)
-        self.patches_resolution = [
-            img_size[0] // patch_size[0],
-            img_size[1] // patch_size[1],
-        ]
-
-        # absolute position embedding
-        # if self.ape:
-        #     # TODO: fix
-        #     num_patches=0
-        #     self.absolute_pos_embed = nn.Parameter(torch.zeros(1, num_patches, embed_dim))
-        #     trunc_normal_(self.absolute_pos_embed, std=.02)
+        self.patches_resolution = self.patch_embed.patches_resolution
 
         self.pos_drop = nn.Dropout(p=drop_rate)
 
@@ -1124,6 +1114,7 @@ class BiAttnSwinTransformer(nn.Module):
         # build layers
         self.layers = nn.ModuleList()
         # pdb.set_trace()
+        reverse_attention_locations = []
         for i_layer in range(self.num_layers):
             if i_layer in reverse_attention_locations:
                 layer_mechanism_instructions = mechanism_instructions
@@ -1212,8 +1203,9 @@ class BiAttnSwinTransformer(nn.Module):
 
     def forward(self, x):
         """Forward function."""
+        # import pdb; pdb.set_trace()
+        import pdb; pdb.set_trace()
         x = self.patch_embed(x)
-
         Wh, Ww = x.size(2), x.size(3)
         if self.ape:
             # interpolate the position embedding to the corresponding size

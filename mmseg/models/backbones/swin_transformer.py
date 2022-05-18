@@ -5,6 +5,7 @@
 # Written by Ze Liu, Yutong Lin, Yixuan Wei
 # --------------------------------------------------------
 
+from turtle import pd
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
@@ -277,6 +278,7 @@ class PatchMerging(nn.Module):
             x: Input feature, tensor size (B, H*W, C).
             H, W: Spatial resolution of the input feature.
         """
+        # import pdb; pdb.set_trace()
         B, L, C = x.shape
         assert L == H * W, "input feature has wrong size"
 
@@ -368,7 +370,6 @@ class BasicLayer(nn.Module):
             x: Input feature, tensor size (B, H*W, C).
             H, W: Spatial resolution of the input feature.
         """
-
         # calculate attention mask for SW-MSA
         Hp = int(np.ceil(H / self.window_size)) * self.window_size
         Wp = int(np.ceil(W / self.window_size)) * self.window_size
@@ -390,6 +391,7 @@ class BasicLayer(nn.Module):
         attn_mask = mask_windows.unsqueeze(1) - mask_windows.unsqueeze(2)
         attn_mask = attn_mask.masked_fill(attn_mask != 0, float(-100.0)).masked_fill(attn_mask == 0, float(0.0))
 
+        # import pdb; pdb.set_trace()
         for blk in self.blocks:
             blk.H, blk.W = H, W
             if self.use_checkpoint:
@@ -430,6 +432,7 @@ class PatchEmbed(nn.Module):
 
     def forward(self, x):
         """Forward function."""
+        
         # padding
         _, _, H, W = x.size()
         if W % self.patch_size[1] != 0:
@@ -601,6 +604,7 @@ class SwinTransformer(nn.Module):
 
     def forward(self, x):
         """Forward function."""
+        # import pdb; pdb.set_trace()
         x = self.patch_embed(x)
 
         Wh, Ww = x.size(2), x.size(3)
@@ -616,6 +620,7 @@ class SwinTransformer(nn.Module):
         outs = []
         for i in range(self.num_layers):
             layer = self.layers[i]
+            
             x_out, H, W, x, Wh, Ww = layer(x, Wh, Ww)
 
             if i in self.out_indices:
