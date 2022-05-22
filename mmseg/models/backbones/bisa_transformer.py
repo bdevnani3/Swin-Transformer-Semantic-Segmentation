@@ -545,7 +545,6 @@ class BisaSwinTransformer(nn.Module):
         # pdb.set_trace()
         for i_layer in range(self.num_layers):
             if i_layer in reverse_attention_locations:
-                import pdb;pdb.set_trace()
                 employ_bidirectional_attn = True
                 add_layer_norms = apply_bidirectional_layer_norms
             else:
