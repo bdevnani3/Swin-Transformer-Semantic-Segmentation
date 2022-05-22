@@ -601,6 +601,7 @@ class BisaSwinTransformer(nn.Module):
                     param.requires_grad = False
 
     def init_weights(self, pretrained=None):
+
         """Initialize the weights in backbone.
 
         Args:
@@ -609,13 +610,16 @@ class BisaSwinTransformer(nn.Module):
         """
 
         def _init_weights(m):
+            # import pdb; pdb.set_trace()
             if isinstance(m, nn.Linear):
                 trunc_normal_(m.weight, std=0.02)
                 if isinstance(m, nn.Linear) and m.bias is not None:
                     nn.init.constant_(m.bias, 0)
             elif isinstance(m, nn.LayerNorm):
-                nn.init.constant_(m.bias, 0)
-                nn.init.constant_(m.weight, 1.0)
+                if m.bias is not None:
+                    nn.init.constant_(m.bias, 0)
+                if m.weight is not None:
+                    nn.init.constant_(m.weight, 1.0)
 
         if isinstance(pretrained, str):
             self.apply(_init_weights)

@@ -211,9 +211,10 @@ class BiDirectionalWindowAttention(nn.Module):
             forget_weight = torch.sigmoid(self.selection_lambda)
 
             if self.add_layer_norms:
-                tensor_shape = isa_outputs.shape
-                isa_outputs = self.isa_norm(isa_outputs.flatten(0, 1)).reshape(*tensor_shape)
-                sa_outputs = self.msa_norm(sa_outputs.flatten(0, 1)).reshape(*tensor_shape)
+                tensor_shape_isa = isa_outputs.shape
+                tensor_shape_sa = sa_outputs.shape
+                isa_outputs = self.isa_norm(isa_outputs.flatten(0, 1)).reshape(*tensor_shape_isa)
+                sa_outputs = self.msa_norm(sa_outputs.flatten(0, 1)).reshape(*tensor_shape_sa)
 
             output = sa_outputs * forget_weight + isa_outputs * (1. - forget_weight)
         else:
