@@ -119,6 +119,7 @@ class SwinTransformerBlock(nn.Module):
         employ_bidirectional_attn=False,
         add_layer_norms=False,
         lambda_value=0.0,
+        lambda_learned=False,
     ):
         # import pdb; pdb.set_trace()
         super().__init__()
@@ -144,6 +145,7 @@ class SwinTransformerBlock(nn.Module):
             is_bidirectional=employ_bidirectional_attn,
             add_layer_norms=add_layer_norms,
             lambda_value=lambda_value,
+            lambda_learned=lambda_learned,
         )
 
         self.drop_path = DropPath(drop_path) if drop_path > 0.0 else nn.Identity()
@@ -311,6 +313,7 @@ class BasicLayer(nn.Module):
         employ_bidirectional_attn=False,
         add_layer_norms=False,
         lambda_value=0.0,
+        lambda_learned=False,
     ):
         super().__init__()
         self.window_size = window_size
@@ -338,6 +341,7 @@ class BasicLayer(nn.Module):
                     employ_bidirectional_attn=employ_bidirectional_attn,
                     add_layer_norms=add_layer_norms,
                     lambda_value=lambda_value,
+                    lambda_learned=lambda_learned,
                 )
                 for i in range(depth)
             ]
@@ -505,6 +509,7 @@ class BisaSwinTransformer(nn.Module):
         reverse_attention_locations=[],
         apply_bidirectional_layer_norms=False,
         bidirectional_lambda_value=0.0,
+        lambda_learned=False,
         out_indices=(0, 1, 2, 3),
         frozen_stages=-1,
         **kwargs,
@@ -570,6 +575,7 @@ class BisaSwinTransformer(nn.Module):
                 employ_bidirectional_attn=employ_bidirectional_attn,
                 add_layer_norms=add_layer_norms,
                 lambda_value=bidirectional_lambda_value,
+                lambda_learned=lambda_learned,
             )
             self.layers.append(layer)
 

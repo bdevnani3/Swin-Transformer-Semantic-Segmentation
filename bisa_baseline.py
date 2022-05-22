@@ -1587,3 +1587,1068 @@ after_run:
 2022-05-22 03:23:54,667 - mmseg - INFO - Iter [8850/320000]	lr: 5.834e-05, eta: 21:46:12, time: 0.247, data_time: 0.003, memory: 35360, decode.loss_seg: 1.8110, decode.acc_seg: 37.9784, aux.loss_seg: 0.8487, aux.acc_seg: 32.2255, loss: 2.6597
 2022-05-22 03:24:07,228 - mmseg - INFO - Iter [8900/320000]	lr: 5.833e-05, eta: 21:45:59, time: 0.251, data_time: 0.004, memory: 35360, decode.loss_seg: 1.7717, decode.acc_seg: 40.1953, aux.loss_seg: 0.8295, aux.acc_seg: 35.0192, loss: 2.6012
 2022-05-22 03:24:19,661 - mmseg - INFO - Iter [8950/320000]	lr: 5.832e-05, eta: 21:45:40, time: 0.249, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7209, decode.acc_seg: 36.4650, aux.loss_seg: 0.8142, aux.acc_seg: 31.0742, loss: 2.5351
+2022-05-22 03:24:32,191 - mmseg - INFO - Exp name: bisa_baseline.py
+2022-05-22 03:24:32,191 - mmseg - INFO - Iter [9000/320000]	lr: 5.831e-05, eta: 21:45:26, time: 0.251, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7831, decode.acc_seg: 36.4418, aux.loss_seg: 0.8266, aux.acc_seg: 31.7223, loss: 2.6097
+2022-05-22 03:24:44,307 - mmseg - INFO - Iter [9050/320000]	lr: 5.830e-05, eta: 21:44:57, time: 0.242, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7310, decode.acc_seg: 37.5158, aux.loss_seg: 0.8243, aux.acc_seg: 31.1285, loss: 2.5553
+2022-05-22 03:24:56,534 - mmseg - INFO - Iter [9100/320000]	lr: 5.829e-05, eta: 21:44:32, time: 0.245, data_time: 0.004, memory: 35360, decode.loss_seg: 1.7079, decode.acc_seg: 37.6777, aux.loss_seg: 0.8280, aux.acc_seg: 30.7672, loss: 2.5359
+2022-05-22 03:25:09,119 - mmseg - INFO - Iter [9150/320000]	lr: 5.828e-05, eta: 21:44:19, time: 0.252, data_time: 0.004, memory: 35360, decode.loss_seg: 1.7550, decode.acc_seg: 37.5668, aux.loss_seg: 0.8168, aux.acc_seg: 32.7080, loss: 2.5718
+2022-05-22 03:25:21,391 - mmseg - INFO - Iter [9200/320000]	lr: 5.828e-05, eta: 21:43:56, time: 0.245, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6763, decode.acc_seg: 38.8034, aux.loss_seg: 0.7988, aux.acc_seg: 32.9004, loss: 2.4751
+2022-05-22 03:25:33,749 - mmseg - INFO - Iter [9250/320000]	lr: 5.827e-05, eta: 21:43:35, time: 0.247, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7801, decode.acc_seg: 37.4688, aux.loss_seg: 0.8327, aux.acc_seg: 32.5380, loss: 2.6129
+2022-05-22 03:25:45,911 - mmseg - INFO - Iter [9300/320000]	lr: 5.826e-05, eta: 21:43:09, time: 0.243, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6700, decode.acc_seg: 39.5835, aux.loss_seg: 0.7911, aux.acc_seg: 34.1995, loss: 2.4611
+2022-05-22 03:25:58,106 - mmseg - INFO - Iter [9350/320000]	lr: 5.825e-05, eta: 21:42:43, time: 0.244, data_time: 0.003, memory: 35360, decode.loss_seg: 1.8020, decode.acc_seg: 38.1846, aux.loss_seg: 0.8426, aux.acc_seg: 33.0633, loss: 2.6445
+2022-05-22 03:26:10,383 - mmseg - INFO - Iter [9400/320000]	lr: 5.824e-05, eta: 21:42:20, time: 0.246, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7854, decode.acc_seg: 37.2531, aux.loss_seg: 0.8426, aux.acc_seg: 31.8167, loss: 2.6280
+2022-05-22 03:26:22,498 - mmseg - INFO - Iter [9450/320000]	lr: 5.823e-05, eta: 21:41:53, time: 0.242, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6550, decode.acc_seg: 38.3630, aux.loss_seg: 0.7840, aux.acc_seg: 33.0761, loss: 2.4390
+2022-05-22 03:26:34,862 - mmseg - INFO - Iter [9500/320000]	lr: 5.822e-05, eta: 21:41:33, time: 0.247, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7671, decode.acc_seg: 37.6285, aux.loss_seg: 0.8354, aux.acc_seg: 31.7965, loss: 2.6025
+2022-05-22 03:26:47,129 - mmseg - INFO - Iter [9550/320000]	lr: 5.821e-05, eta: 21:41:10, time: 0.245, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7268, decode.acc_seg: 38.7804, aux.loss_seg: 0.8105, aux.acc_seg: 33.4673, loss: 2.5373
+2022-05-22 03:26:59,584 - mmseg - INFO - Iter [9600/320000]	lr: 5.820e-05, eta: 21:40:54, time: 0.249, data_time: 0.003, memory: 35360, decode.loss_seg: 1.8415, decode.acc_seg: 37.3966, aux.loss_seg: 0.8637, aux.acc_seg: 32.0078, loss: 2.7052
+2022-05-22 03:27:11,849 - mmseg - INFO - Iter [9650/320000]	lr: 5.819e-05, eta: 21:40:32, time: 0.245, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7240, decode.acc_seg: 38.8773, aux.loss_seg: 0.8160, aux.acc_seg: 33.2922, loss: 2.5400
+2022-05-22 03:27:24,117 - mmseg - INFO - Iter [9700/320000]	lr: 5.818e-05, eta: 21:40:09, time: 0.245, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7973, decode.acc_seg: 36.6686, aux.loss_seg: 0.8304, aux.acc_seg: 32.5658, loss: 2.6277
+2022-05-22 03:27:36,344 - mmseg - INFO - Iter [9750/320000]	lr: 5.817e-05, eta: 21:39:46, time: 0.245, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7304, decode.acc_seg: 37.3054, aux.loss_seg: 0.8101, aux.acc_seg: 31.4929, loss: 2.5404
+2022-05-22 03:27:48,474 - mmseg - INFO - Iter [9800/320000]	lr: 5.816e-05, eta: 21:39:19, time: 0.243, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7169, decode.acc_seg: 38.8016, aux.loss_seg: 0.8088, aux.acc_seg: 33.7907, loss: 2.5257
+2022-05-22 03:28:00,803 - mmseg - INFO - Iter [9850/320000]	lr: 5.815e-05, eta: 21:38:59, time: 0.247, data_time: 0.004, memory: 35360, decode.loss_seg: 1.8310, decode.acc_seg: 37.4062, aux.loss_seg: 0.8494, aux.acc_seg: 32.2090, loss: 2.6804
+2022-05-22 03:28:13,014 - mmseg - INFO - Iter [9900/320000]	lr: 5.814e-05, eta: 21:38:36, time: 0.244, data_time: 0.003, memory: 35360, decode.loss_seg: 1.8888, decode.acc_seg: 36.1451, aux.loss_seg: 0.8549, aux.acc_seg: 31.5417, loss: 2.7436
+2022-05-22 03:28:25,353 - mmseg - INFO - Iter [9950/320000]	lr: 5.813e-05, eta: 21:38:16, time: 0.247, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7154, decode.acc_seg: 39.2578, aux.loss_seg: 0.8220, aux.acc_seg: 32.7477, loss: 2.5374
+2022-05-22 03:28:37,632 - mmseg - INFO - Exp name: bisa_baseline.py
+2022-05-22 03:28:37,632 - mmseg - INFO - Iter [10000/320000]	lr: 5.813e-05, eta: 21:37:55, time: 0.246, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7428, decode.acc_seg: 36.8956, aux.loss_seg: 0.8200, aux.acc_seg: 31.7582, loss: 2.5628
+2022-05-22 03:28:49,736 - mmseg - INFO - Iter [10050/320000]	lr: 5.812e-05, eta: 21:37:28, time: 0.242, data_time: 0.003, memory: 35360, decode.loss_seg: 1.8390, decode.acc_seg: 36.0023, aux.loss_seg: 0.8446, aux.acc_seg: 32.1318, loss: 2.6836
+2022-05-22 03:29:02,250 - mmseg - INFO - Iter [10100/320000]	lr: 5.811e-05, eta: 21:37:14, time: 0.250, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6236, decode.acc_seg: 39.8004, aux.loss_seg: 0.7647, aux.acc_seg: 35.7895, loss: 2.3883
+2022-05-22 03:29:30,967 - mmseg - INFO - Iter [10150/320000]	lr: 5.810e-05, eta: 21:45:15, time: 0.574, data_time: 0.308, memory: 35360, decode.loss_seg: 1.7520, decode.acc_seg: 37.8551, aux.loss_seg: 0.8206, aux.acc_seg: 31.4284, loss: 2.5726
+2022-05-22 03:29:43,601 - mmseg - INFO - Iter [10200/320000]	lr: 5.809e-05, eta: 21:45:02, time: 0.253, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7661, decode.acc_seg: 37.6360, aux.loss_seg: 0.8334, aux.acc_seg: 32.2405, loss: 2.5995
+2022-05-22 03:29:56,020 - mmseg - INFO - Iter [10250/320000]	lr: 5.808e-05, eta: 21:44:43, time: 0.248, data_time: 0.004, memory: 35360, decode.loss_seg: 1.7036, decode.acc_seg: 37.9783, aux.loss_seg: 0.8021, aux.acc_seg: 33.1512, loss: 2.5057
+2022-05-22 03:30:08,347 - mmseg - INFO - Iter [10300/320000]	lr: 5.807e-05, eta: 21:44:21, time: 0.247, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7967, decode.acc_seg: 36.9603, aux.loss_seg: 0.8398, aux.acc_seg: 31.5799, loss: 2.6366
+2022-05-22 03:30:20,790 - mmseg - INFO - Iter [10350/320000]	lr: 5.806e-05, eta: 21:44:02, time: 0.249, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6982, decode.acc_seg: 40.0251, aux.loss_seg: 0.7975, aux.acc_seg: 34.4195, loss: 2.4957
+2022-05-22 03:30:33,062 - mmseg - INFO - Iter [10400/320000]	lr: 5.805e-05, eta: 21:43:39, time: 0.245, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7578, decode.acc_seg: 38.6414, aux.loss_seg: 0.8262, aux.acc_seg: 33.9902, loss: 2.5841
+2022-05-22 03:30:45,500 - mmseg - INFO - Iter [10450/320000]	lr: 5.804e-05, eta: 21:43:21, time: 0.249, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7555, decode.acc_seg: 39.0144, aux.loss_seg: 0.8339, aux.acc_seg: 32.3753, loss: 2.5894
+2022-05-22 03:30:57,971 - mmseg - INFO - Iter [10500/320000]	lr: 5.803e-05, eta: 21:43:03, time: 0.249, data_time: 0.004, memory: 35360, decode.loss_seg: 1.7578, decode.acc_seg: 37.8519, aux.loss_seg: 0.8065, aux.acc_seg: 33.1830, loss: 2.5642
+2022-05-22 03:31:10,287 - mmseg - INFO - Iter [10550/320000]	lr: 5.802e-05, eta: 21:42:41, time: 0.246, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7329, decode.acc_seg: 37.8739, aux.loss_seg: 0.8120, aux.acc_seg: 32.8396, loss: 2.5450
+2022-05-22 03:31:22,554 - mmseg - INFO - Iter [10600/320000]	lr: 5.801e-05, eta: 21:42:18, time: 0.245, data_time: 0.005, memory: 35360, decode.loss_seg: 1.7059, decode.acc_seg: 37.8974, aux.loss_seg: 0.7980, aux.acc_seg: 33.2887, loss: 2.5039
+2022-05-22 03:31:34,808 - mmseg - INFO - Iter [10650/320000]	lr: 5.800e-05, eta: 21:41:55, time: 0.245, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7817, decode.acc_seg: 38.1981, aux.loss_seg: 0.8400, aux.acc_seg: 32.5564, loss: 2.6217
+2022-05-22 03:31:47,380 - mmseg - INFO - Iter [10700/320000]	lr: 5.799e-05, eta: 21:41:41, time: 0.251, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6968, decode.acc_seg: 37.8961, aux.loss_seg: 0.7989, aux.acc_seg: 32.7787, loss: 2.4957
+2022-05-22 03:31:59,612 - mmseg - INFO - Iter [10750/320000]	lr: 5.798e-05, eta: 21:41:17, time: 0.245, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7297, decode.acc_seg: 39.4124, aux.loss_seg: 0.8256, aux.acc_seg: 34.0694, loss: 2.5553
+2022-05-22 03:32:12,341 - mmseg - INFO - Iter [10800/320000]	lr: 5.798e-05, eta: 21:41:07, time: 0.254, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6662, decode.acc_seg: 40.5108, aux.loss_seg: 0.7905, aux.acc_seg: 34.8844, loss: 2.4567
+2022-05-22 03:32:24,752 - mmseg - INFO - Iter [10850/320000]	lr: 5.797e-05, eta: 21:40:48, time: 0.248, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6452, decode.acc_seg: 40.6311, aux.loss_seg: 0.7790, aux.acc_seg: 34.5906, loss: 2.4242
+2022-05-22 03:32:37,154 - mmseg - INFO - Iter [10900/320000]	lr: 5.796e-05, eta: 21:40:29, time: 0.248, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7171, decode.acc_seg: 39.8551, aux.loss_seg: 0.8187, aux.acc_seg: 33.4269, loss: 2.5357
+2022-05-22 03:32:49,505 - mmseg - INFO - Iter [10950/320000]	lr: 5.795e-05, eta: 21:40:09, time: 0.247, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6815, decode.acc_seg: 38.5401, aux.loss_seg: 0.7961, aux.acc_seg: 33.2291, loss: 2.4776
+2022-05-22 03:33:01,652 - mmseg - INFO - Exp name: bisa_baseline.py
+2022-05-22 03:33:01,653 - mmseg - INFO - Iter [11000/320000]	lr: 5.794e-05, eta: 21:39:43, time: 0.243, data_time: 0.004, memory: 35360, decode.loss_seg: 1.8006, decode.acc_seg: 38.7580, aux.loss_seg: 0.8558, aux.acc_seg: 33.1476, loss: 2.6563
+2022-05-22 03:33:13,864 - mmseg - INFO - Iter [11050/320000]	lr: 5.793e-05, eta: 21:39:19, time: 0.244, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7210, decode.acc_seg: 36.9797, aux.loss_seg: 0.8211, aux.acc_seg: 31.7728, loss: 2.5421
+2022-05-22 03:33:26,193 - mmseg - INFO - Iter [11100/320000]	lr: 5.792e-05, eta: 21:38:58, time: 0.247, data_time: 0.003, memory: 35360, decode.loss_seg: 1.8269, decode.acc_seg: 37.0550, aux.loss_seg: 0.8507, aux.acc_seg: 31.4396, loss: 2.6776
+2022-05-22 03:33:38,643 - mmseg - INFO - Iter [11150/320000]	lr: 5.791e-05, eta: 21:38:41, time: 0.249, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7553, decode.acc_seg: 38.0810, aux.loss_seg: 0.8298, aux.acc_seg: 31.9099, loss: 2.5852
+2022-05-22 03:33:50,970 - mmseg - INFO - Iter [11200/320000]	lr: 5.790e-05, eta: 21:38:21, time: 0.246, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7537, decode.acc_seg: 40.3199, aux.loss_seg: 0.8245, aux.acc_seg: 34.5047, loss: 2.5782
+2022-05-22 03:34:03,214 - mmseg - INFO - Iter [11250/320000]	lr: 5.789e-05, eta: 21:37:58, time: 0.245, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6263, decode.acc_seg: 39.4711, aux.loss_seg: 0.7870, aux.acc_seg: 33.2755, loss: 2.4133
+2022-05-22 03:34:15,347 - mmseg - INFO - Iter [11300/320000]	lr: 5.788e-05, eta: 21:37:32, time: 0.243, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6838, decode.acc_seg: 41.1991, aux.loss_seg: 0.7939, aux.acc_seg: 35.6857, loss: 2.4777
+2022-05-22 03:34:27,559 - mmseg - INFO - Iter [11350/320000]	lr: 5.787e-05, eta: 21:37:09, time: 0.244, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7091, decode.acc_seg: 39.0276, aux.loss_seg: 0.8091, aux.acc_seg: 33.4937, loss: 2.5182
+2022-05-22 03:34:39,935 - mmseg - INFO - Iter [11400/320000]	lr: 5.786e-05, eta: 21:36:50, time: 0.247, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6271, decode.acc_seg: 41.0668, aux.loss_seg: 0.7881, aux.acc_seg: 34.6746, loss: 2.4153
+2022-05-22 03:34:52,154 - mmseg - INFO - Iter [11450/320000]	lr: 5.785e-05, eta: 21:36:27, time: 0.244, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7557, decode.acc_seg: 36.9986, aux.loss_seg: 0.8278, aux.acc_seg: 31.4746, loss: 2.5836
+2022-05-22 03:35:04,190 - mmseg - INFO - Iter [11500/320000]	lr: 5.784e-05, eta: 21:35:59, time: 0.241, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7139, decode.acc_seg: 38.7050, aux.loss_seg: 0.8064, aux.acc_seg: 33.6740, loss: 2.5203
+2022-05-22 03:35:16,540 - mmseg - INFO - Iter [11550/320000]	lr: 5.783e-05, eta: 21:35:39, time: 0.247, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7986, decode.acc_seg: 38.2076, aux.loss_seg: 0.8323, aux.acc_seg: 33.8194, loss: 2.6309
+2022-05-22 03:35:28,965 - mmseg - INFO - Iter [11600/320000]	lr: 5.783e-05, eta: 21:35:22, time: 0.249, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6524, decode.acc_seg: 39.0498, aux.loss_seg: 0.7855, aux.acc_seg: 33.0095, loss: 2.4378
+2022-05-22 03:35:41,375 - mmseg - INFO - Iter [11650/320000]	lr: 5.782e-05, eta: 21:35:05, time: 0.248, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6997, decode.acc_seg: 40.6961, aux.loss_seg: 0.8159, aux.acc_seg: 34.4819, loss: 2.5157
+2022-05-22 03:35:53,821 - mmseg - INFO - Iter [11700/320000]	lr: 5.781e-05, eta: 21:34:48, time: 0.249, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7686, decode.acc_seg: 39.9275, aux.loss_seg: 0.8283, aux.acc_seg: 34.5926, loss: 2.5969
+2022-05-22 03:36:06,232 - mmseg - INFO - Iter [11750/320000]	lr: 5.780e-05, eta: 21:34:30, time: 0.248, data_time: 0.004, memory: 35360, decode.loss_seg: 1.5767, decode.acc_seg: 39.3975, aux.loss_seg: 0.7628, aux.acc_seg: 33.5037, loss: 2.3395
+2022-05-22 03:36:18,267 - mmseg - INFO - Iter [11800/320000]	lr: 5.779e-05, eta: 21:34:03, time: 0.241, data_time: 0.003, memory: 35360, decode.loss_seg: 1.5913, decode.acc_seg: 39.5884, aux.loss_seg: 0.7571, aux.acc_seg: 33.9626, loss: 2.3485
+2022-05-22 03:36:30,778 - mmseg - INFO - Iter [11850/320000]	lr: 5.778e-05, eta: 21:33:48, time: 0.250, data_time: 0.003, memory: 35360, decode.loss_seg: 1.5665, decode.acc_seg: 39.3870, aux.loss_seg: 0.7541, aux.acc_seg: 33.8959, loss: 2.3207
+2022-05-22 03:36:43,299 - mmseg - INFO - Iter [11900/320000]	lr: 5.777e-05, eta: 21:33:34, time: 0.250, data_time: 0.004, memory: 35360, decode.loss_seg: 1.7586, decode.acc_seg: 37.2435, aux.loss_seg: 0.8205, aux.acc_seg: 32.7053, loss: 2.5790
+2022-05-22 03:36:55,588 - mmseg - INFO - Iter [11950/320000]	lr: 5.776e-05, eta: 21:33:13, time: 0.246, data_time: 0.004, memory: 35360, decode.loss_seg: 1.7806, decode.acc_seg: 37.1305, aux.loss_seg: 0.8282, aux.acc_seg: 31.5015, loss: 2.6089
+2022-05-22 03:37:07,884 - mmseg - INFO - Exp name: bisa_baseline.py
+2022-05-22 03:37:07,884 - mmseg - INFO - Iter [12000/320000]	lr: 5.775e-05, eta: 21:32:53, time: 0.246, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6815, decode.acc_seg: 40.1686, aux.loss_seg: 0.8033, aux.acc_seg: 34.2571, loss: 2.4848
+2022-05-22 03:37:20,234 - mmseg - INFO - Iter [12050/320000]	lr: 5.774e-05, eta: 21:32:34, time: 0.247, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6197, decode.acc_seg: 40.5297, aux.loss_seg: 0.7751, aux.acc_seg: 34.7924, loss: 2.3949
+2022-05-22 03:37:33,072 - mmseg - INFO - Iter [12100/320000]	lr: 5.773e-05, eta: 21:32:28, time: 0.257, data_time: 0.004, memory: 35360, decode.loss_seg: 1.7444, decode.acc_seg: 39.4580, aux.loss_seg: 0.8226, aux.acc_seg: 33.0561, loss: 2.5670
+2022-05-22 03:37:45,320 - mmseg - INFO - Iter [12150/320000]	lr: 5.772e-05, eta: 21:32:06, time: 0.245, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6649, decode.acc_seg: 39.9490, aux.loss_seg: 0.7883, aux.acc_seg: 34.3133, loss: 2.4532
+2022-05-22 03:37:57,623 - mmseg - INFO - Iter [12200/320000]	lr: 5.771e-05, eta: 21:31:47, time: 0.246, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6960, decode.acc_seg: 38.5076, aux.loss_seg: 0.8006, aux.acc_seg: 32.7983, loss: 2.4966
+2022-05-22 03:38:09,799 - mmseg - INFO - Iter [12250/320000]	lr: 5.770e-05, eta: 21:31:23, time: 0.243, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7843, decode.acc_seg: 38.0081, aux.loss_seg: 0.8352, aux.acc_seg: 33.0753, loss: 2.6195
+2022-05-22 03:38:22,111 - mmseg - INFO - Iter [12300/320000]	lr: 5.769e-05, eta: 21:31:04, time: 0.246, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6588, decode.acc_seg: 39.3180, aux.loss_seg: 0.7910, aux.acc_seg: 32.8680, loss: 2.4498
+2022-05-22 03:38:34,350 - mmseg - INFO - Iter [12350/320000]	lr: 5.768e-05, eta: 21:30:43, time: 0.245, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6447, decode.acc_seg: 39.8994, aux.loss_seg: 0.7774, aux.acc_seg: 34.7338, loss: 2.4221
+2022-05-22 03:38:46,528 - mmseg - INFO - Iter [12400/320000]	lr: 5.768e-05, eta: 21:30:20, time: 0.243, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6381, decode.acc_seg: 41.7317, aux.loss_seg: 0.7898, aux.acc_seg: 35.4519, loss: 2.4279
+2022-05-22 03:38:58,910 - mmseg - INFO - Iter [12450/320000]	lr: 5.767e-05, eta: 21:30:02, time: 0.248, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6573, decode.acc_seg: 39.2575, aux.loss_seg: 0.7781, aux.acc_seg: 33.7171, loss: 2.4355
+2022-05-22 03:39:11,571 - mmseg - INFO - Iter [12500/320000]	lr: 5.766e-05, eta: 21:29:52, time: 0.253, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6989, decode.acc_seg: 40.1404, aux.loss_seg: 0.8016, aux.acc_seg: 34.7534, loss: 2.5006
+2022-05-22 03:39:23,778 - mmseg - INFO - Iter [12550/320000]	lr: 5.765e-05, eta: 21:29:30, time: 0.244, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6886, decode.acc_seg: 39.0132, aux.loss_seg: 0.8043, aux.acc_seg: 33.0888, loss: 2.4929
+2022-05-22 03:39:36,149 - mmseg - INFO - Iter [12600/320000]	lr: 5.764e-05, eta: 21:29:12, time: 0.248, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6565, decode.acc_seg: 40.8549, aux.loss_seg: 0.7899, aux.acc_seg: 35.4268, loss: 2.4464
+2022-05-22 03:40:04,630 - mmseg - INFO - Iter [12650/320000]	lr: 5.763e-05, eta: 21:35:26, time: 0.570, data_time: 0.328, memory: 35360, decode.loss_seg: 1.7183, decode.acc_seg: 39.6554, aux.loss_seg: 0.8177, aux.acc_seg: 33.9690, loss: 2.5360
+2022-05-22 03:40:16,914 - mmseg - INFO - Iter [12700/320000]	lr: 5.762e-05, eta: 21:35:04, time: 0.246, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6708, decode.acc_seg: 38.8325, aux.loss_seg: 0.7941, aux.acc_seg: 33.3069, loss: 2.4649
+2022-05-22 03:40:29,390 - mmseg - INFO - Iter [12750/320000]	lr: 5.761e-05, eta: 21:34:48, time: 0.250, data_time: 0.004, memory: 35360, decode.loss_seg: 1.7103, decode.acc_seg: 39.3678, aux.loss_seg: 0.8144, aux.acc_seg: 33.2323, loss: 2.5247
+2022-05-22 03:40:41,620 - mmseg - INFO - Iter [12800/320000]	lr: 5.760e-05, eta: 21:34:25, time: 0.245, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6809, decode.acc_seg: 38.2068, aux.loss_seg: 0.7986, aux.acc_seg: 32.6351, loss: 2.4796
+2022-05-22 03:40:53,913 - mmseg - INFO - Iter [12850/320000]	lr: 5.759e-05, eta: 21:34:04, time: 0.246, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7455, decode.acc_seg: 38.5210, aux.loss_seg: 0.8201, aux.acc_seg: 32.9810, loss: 2.5656
+2022-05-22 03:41:06,348 - mmseg - INFO - Iter [12900/320000]	lr: 5.758e-05, eta: 21:33:47, time: 0.249, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6969, decode.acc_seg: 39.7145, aux.loss_seg: 0.8020, aux.acc_seg: 34.3727, loss: 2.4989
+2022-05-22 03:41:18,540 - mmseg - INFO - Iter [12950/320000]	lr: 5.757e-05, eta: 21:33:23, time: 0.244, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6906, decode.acc_seg: 38.8460, aux.loss_seg: 0.7849, aux.acc_seg: 32.9139, loss: 2.4755
+2022-05-22 03:41:30,768 - mmseg - INFO - Exp name: bisa_baseline.py
+2022-05-22 03:41:30,768 - mmseg - INFO - Iter [13000/320000]	lr: 5.756e-05, eta: 21:33:01, time: 0.245, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7347, decode.acc_seg: 41.6703, aux.loss_seg: 0.8208, aux.acc_seg: 35.3002, loss: 2.5555
+2022-05-22 03:41:43,159 - mmseg - INFO - Iter [13050/320000]	lr: 5.755e-05, eta: 21:32:43, time: 0.248, data_time: 0.004, memory: 35360, decode.loss_seg: 1.5686, decode.acc_seg: 39.0025, aux.loss_seg: 0.7653, aux.acc_seg: 32.9184, loss: 2.3340
+2022-05-22 03:41:55,629 - mmseg - INFO - Iter [13100/320000]	lr: 5.754e-05, eta: 21:32:26, time: 0.249, data_time: 0.005, memory: 35360, decode.loss_seg: 1.5668, decode.acc_seg: 41.1212, aux.loss_seg: 0.7458, aux.acc_seg: 35.7394, loss: 2.3126
+2022-05-22 03:42:08,244 - mmseg - INFO - Iter [13150/320000]	lr: 5.753e-05, eta: 21:32:13, time: 0.252, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6368, decode.acc_seg: 40.0861, aux.loss_seg: 0.7782, aux.acc_seg: 34.3955, loss: 2.4150
+2022-05-22 03:42:20,497 - mmseg - INFO - Iter [13200/320000]	lr: 5.753e-05, eta: 21:31:52, time: 0.245, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6997, decode.acc_seg: 39.1642, aux.loss_seg: 0.7936, aux.acc_seg: 34.0691, loss: 2.4933
+2022-05-22 03:42:32,829 - mmseg - INFO - Iter [13250/320000]	lr: 5.752e-05, eta: 21:31:32, time: 0.247, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6409, decode.acc_seg: 40.4339, aux.loss_seg: 0.7771, aux.acc_seg: 34.9341, loss: 2.4180
+2022-05-22 03:42:45,198 - mmseg - INFO - Iter [13300/320000]	lr: 5.751e-05, eta: 21:31:13, time: 0.247, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6818, decode.acc_seg: 39.5370, aux.loss_seg: 0.8014, aux.acc_seg: 33.6626, loss: 2.4832
+2022-05-22 03:42:57,482 - mmseg - INFO - Iter [13350/320000]	lr: 5.750e-05, eta: 21:30:53, time: 0.246, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6447, decode.acc_seg: 39.9368, aux.loss_seg: 0.7838, aux.acc_seg: 34.0531, loss: 2.4285
+2022-05-22 03:43:09,714 - mmseg - INFO - Iter [13400/320000]	lr: 5.749e-05, eta: 21:30:31, time: 0.245, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6163, decode.acc_seg: 40.7824, aux.loss_seg: 0.7740, aux.acc_seg: 35.2460, loss: 2.3903
+2022-05-22 03:43:21,745 - mmseg - INFO - Iter [13450/320000]	lr: 5.748e-05, eta: 21:30:05, time: 0.241, data_time: 0.003, memory: 35360, decode.loss_seg: 1.5859, decode.acc_seg: 42.2082, aux.loss_seg: 0.7571, aux.acc_seg: 35.9734, loss: 2.3429
+2022-05-22 03:43:34,024 - mmseg - INFO - Iter [13500/320000]	lr: 5.747e-05, eta: 21:29:44, time: 0.246, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6973, decode.acc_seg: 40.2518, aux.loss_seg: 0.8110, aux.acc_seg: 34.1332, loss: 2.5083
+2022-05-22 03:43:46,279 - mmseg - INFO - Iter [13550/320000]	lr: 5.746e-05, eta: 21:29:23, time: 0.245, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6395, decode.acc_seg: 40.4674, aux.loss_seg: 0.7862, aux.acc_seg: 34.8886, loss: 2.4258
+2022-05-22 03:43:58,791 - mmseg - INFO - Iter [13600/320000]	lr: 5.745e-05, eta: 21:29:08, time: 0.250, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6103, decode.acc_seg: 40.4282, aux.loss_seg: 0.7686, aux.acc_seg: 34.9005, loss: 2.3789
+2022-05-22 03:44:11,106 - mmseg - INFO - Iter [13650/320000]	lr: 5.744e-05, eta: 21:28:49, time: 0.246, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6923, decode.acc_seg: 40.0482, aux.loss_seg: 0.8051, aux.acc_seg: 33.7367, loss: 2.4975
+2022-05-22 03:44:23,272 - mmseg - INFO - Iter [13700/320000]	lr: 5.743e-05, eta: 21:28:26, time: 0.243, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6740, decode.acc_seg: 40.3947, aux.loss_seg: 0.7965, aux.acc_seg: 34.1487, loss: 2.4705
+2022-05-22 03:44:35,707 - mmseg - INFO - Iter [13750/320000]	lr: 5.742e-05, eta: 21:28:09, time: 0.249, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6491, decode.acc_seg: 40.8862, aux.loss_seg: 0.7692, aux.acc_seg: 35.1708, loss: 2.4183
+2022-05-22 03:44:47,935 - mmseg - INFO - Iter [13800/320000]	lr: 5.741e-05, eta: 21:27:48, time: 0.245, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6449, decode.acc_seg: 40.4545, aux.loss_seg: 0.7862, aux.acc_seg: 34.5604, loss: 2.4311
+2022-05-22 03:45:00,416 - mmseg - INFO - Iter [13850/320000]	lr: 5.740e-05, eta: 21:27:32, time: 0.250, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6320, decode.acc_seg: 39.1412, aux.loss_seg: 0.7722, aux.acc_seg: 34.2645, loss: 2.4043
+2022-05-22 03:45:12,615 - mmseg - INFO - Iter [13900/320000]	lr: 5.739e-05, eta: 21:27:10, time: 0.244, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6662, decode.acc_seg: 39.5260, aux.loss_seg: 0.7866, aux.acc_seg: 34.6350, loss: 2.4528
+2022-05-22 03:45:25,015 - mmseg - INFO - Iter [13950/320000]	lr: 5.738e-05, eta: 21:26:53, time: 0.248, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6484, decode.acc_seg: 39.0290, aux.loss_seg: 0.7834, aux.acc_seg: 33.6323, loss: 2.4318
+2022-05-22 03:45:37,419 - mmseg - INFO - Exp name: bisa_baseline.py
+2022-05-22 03:45:37,419 - mmseg - INFO - Iter [14000/320000]	lr: 5.738e-05, eta: 21:26:36, time: 0.248, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6818, decode.acc_seg: 39.4348, aux.loss_seg: 0.8029, aux.acc_seg: 33.1259, loss: 2.4847
+2022-05-22 03:45:49,767 - mmseg - INFO - Iter [14050/320000]	lr: 5.737e-05, eta: 21:26:17, time: 0.247, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6214, decode.acc_seg: 41.3896, aux.loss_seg: 0.7799, aux.acc_seg: 34.8722, loss: 2.4014
+2022-05-22 03:46:01,953 - mmseg - INFO - Iter [14100/320000]	lr: 5.736e-05, eta: 21:25:55, time: 0.244, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6749, decode.acc_seg: 40.9029, aux.loss_seg: 0.7955, aux.acc_seg: 35.5482, loss: 2.4704
+2022-05-22 03:46:14,261 - mmseg - INFO - Iter [14150/320000]	lr: 5.735e-05, eta: 21:25:36, time: 0.246, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6996, decode.acc_seg: 39.0199, aux.loss_seg: 0.7949, aux.acc_seg: 34.4380, loss: 2.4945
+2022-05-22 03:46:26,509 - mmseg - INFO - Iter [14200/320000]	lr: 5.734e-05, eta: 21:25:16, time: 0.245, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6832, decode.acc_seg: 39.7391, aux.loss_seg: 0.8035, aux.acc_seg: 33.8465, loss: 2.4867
+2022-05-22 03:46:38,802 - mmseg - INFO - Iter [14250/320000]	lr: 5.733e-05, eta: 21:24:57, time: 0.246, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7026, decode.acc_seg: 39.6178, aux.loss_seg: 0.8026, aux.acc_seg: 33.5558, loss: 2.5052
+2022-05-22 03:46:51,139 - mmseg - INFO - Iter [14300/320000]	lr: 5.732e-05, eta: 21:24:38, time: 0.247, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6174, decode.acc_seg: 40.5475, aux.loss_seg: 0.7776, aux.acc_seg: 34.7251, loss: 2.3950
+2022-05-22 03:47:03,438 - mmseg - INFO - Iter [14350/320000]	lr: 5.731e-05, eta: 21:24:19, time: 0.246, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6447, decode.acc_seg: 40.3712, aux.loss_seg: 0.7696, aux.acc_seg: 35.7073, loss: 2.4143
+2022-05-22 03:47:15,609 - mmseg - INFO - Iter [14400/320000]	lr: 5.730e-05, eta: 21:23:57, time: 0.244, data_time: 0.003, memory: 35360, decode.loss_seg: 1.7045, decode.acc_seg: 40.1048, aux.loss_seg: 0.8127, aux.acc_seg: 33.7703, loss: 2.5171
+2022-05-22 03:47:27,861 - mmseg - INFO - Iter [14450/320000]	lr: 5.729e-05, eta: 21:23:37, time: 0.245, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6162, decode.acc_seg: 40.7400, aux.loss_seg: 0.7682, aux.acc_seg: 35.3401, loss: 2.3844
+2022-05-22 03:47:40,247 - mmseg - INFO - Iter [14500/320000]	lr: 5.728e-05, eta: 21:23:20, time: 0.248, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6324, decode.acc_seg: 42.4834, aux.loss_seg: 0.7841, aux.acc_seg: 36.7948, loss: 2.4165
+2022-05-22 03:47:52,558 - mmseg - INFO - Iter [14550/320000]	lr: 5.727e-05, eta: 21:23:01, time: 0.246, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6197, decode.acc_seg: 39.0657, aux.loss_seg: 0.7705, aux.acc_seg: 33.5295, loss: 2.3901
+2022-05-22 03:48:04,817 - mmseg - INFO - Iter [14600/320000]	lr: 5.726e-05, eta: 21:22:41, time: 0.245, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6536, decode.acc_seg: 40.5418, aux.loss_seg: 0.7908, aux.acc_seg: 34.1621, loss: 2.4444
+2022-05-22 03:48:16,928 - mmseg - INFO - Iter [14650/320000]	lr: 5.725e-05, eta: 21:22:19, time: 0.242, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6840, decode.acc_seg: 39.5536, aux.loss_seg: 0.7974, aux.acc_seg: 34.0439, loss: 2.4814
+2022-05-22 03:48:29,132 - mmseg - INFO - Iter [14700/320000]	lr: 5.724e-05, eta: 21:21:58, time: 0.244, data_time: 0.003, memory: 35360, decode.loss_seg: 1.5778, decode.acc_seg: 43.7275, aux.loss_seg: 0.7601, aux.acc_seg: 38.1721, loss: 2.3379
+2022-05-22 03:48:41,379 - mmseg - INFO - Iter [14750/320000]	lr: 5.723e-05, eta: 21:21:38, time: 0.245, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6119, decode.acc_seg: 39.0436, aux.loss_seg: 0.7754, aux.acc_seg: 33.5004, loss: 2.3873
+2022-05-22 03:48:53,612 - mmseg - INFO - Iter [14800/320000]	lr: 5.723e-05, eta: 21:21:18, time: 0.245, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6519, decode.acc_seg: 41.0774, aux.loss_seg: 0.7921, aux.acc_seg: 35.0442, loss: 2.4440
+2022-05-22 03:49:05,908 - mmseg - INFO - Iter [14850/320000]	lr: 5.722e-05, eta: 21:20:59, time: 0.246, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6629, decode.acc_seg: 37.9908, aux.loss_seg: 0.7738, aux.acc_seg: 33.2167, loss: 2.4368
+2022-05-22 03:49:18,184 - mmseg - INFO - Iter [14900/320000]	lr: 5.721e-05, eta: 21:20:40, time: 0.245, data_time: 0.004, memory: 35360, decode.loss_seg: 1.7353, decode.acc_seg: 39.0697, aux.loss_seg: 0.8116, aux.acc_seg: 34.2972, loss: 2.5469
+2022-05-22 03:49:30,587 - mmseg - INFO - Iter [14950/320000]	lr: 5.720e-05, eta: 21:20:24, time: 0.248, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6406, decode.acc_seg: 39.6848, aux.loss_seg: 0.7767, aux.acc_seg: 32.7403, loss: 2.4173
+2022-05-22 03:49:42,978 - mmseg - INFO - Exp name: bisa_baseline.py
+2022-05-22 03:49:42,978 - mmseg - INFO - Iter [15000/320000]	lr: 5.719e-05, eta: 21:20:07, time: 0.248, data_time: 0.005, memory: 35360, decode.loss_seg: 1.5402, decode.acc_seg: 40.3050, aux.loss_seg: 0.7328, aux.acc_seg: 35.2329, loss: 2.2730
+2022-05-22 03:49:55,410 - mmseg - INFO - Iter [15050/320000]	lr: 5.718e-05, eta: 21:19:51, time: 0.249, data_time: 0.004, memory: 35360, decode.loss_seg: 1.6033, decode.acc_seg: 40.6881, aux.loss_seg: 0.7635, aux.acc_seg: 35.5968, loss: 2.3668
+2022-05-22 03:50:07,791 - mmseg - INFO - Iter [15100/320000]	lr: 5.717e-05, eta: 21:19:34, time: 0.248, data_time: 0.003, memory: 35360, decode.loss_seg: 1.6107, decode.acc_seg: 42.6788, aux.loss_seg: 0.7750, aux.acc_seg: 36.3647, loss: 2.3857
+2022-05-22 03:50:20,093 - mmseg - INFO - Iter [15150/320000]	lr: 5.716e-05, eta: 21:19:16, time: 0.246, data_time: 0.003, memory: 35360, decode.loss_seg: 1.5627, decode.acc_seg: 42.0169, aux.loss_seg: 0.7415, aux.acc_seg: 36.6205, loss: 2.3042
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/multiprocessing/spawn.py", line 116, in spawn_main
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/multiprocessing/spawn.py", line 125, in _main
+    exitcode = _main(fd, parent_sentinel)
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+    prepare(preparation_data)
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/multiprocessing/spawn.py", line 236, in prepare
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/runpy.py", line 268, in run_path
+    main_content = runpy.run_path(main_path,
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/runpy.py", line 268, in run_path
+    return _run_module_code(code, init_globals, run_name,
+    return _run_module_code(code, init_globals, run_name,
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/runpy.py", line 97, in _run_module_code
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/runpy.py", line 87, in _run_code
+    _run_code(code, mod_globals, init_globals,
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/tools/train.py", line 13, in <module>
+    exec(code, run_globals)
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/tools/train.py", line 13, in <module>
+    from mmseg.apis import set_random_seed, train_segmentor
+    from mmseg.apis import set_random_seed, train_segmentor
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/apis/__init__.py", line 1, in <module>
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/apis/__init__.py", line 1, in <module>
+    from .inference import inference_segmentor, init_segmentor, show_result_pyplot
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/apis/inference.py", line 8, in <module>
+    from .inference import inference_segmentor, init_segmentor, show_result_pyplot
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/apis/inference.py", line 8, in <module>
+    from mmseg.models import build_segmentor
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/models/__init__.py", line 1, in <module>
+    from mmseg.models import build_segmentor
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/models/__init__.py", line 1, in <module>
+    from .backbones import *  # noqa: F401,F403
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/models/backbones/__init__.py", line 13, in <module>
+    from .backbones import *  # noqa: F401,F403
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/models/backbones/__init__.py", line 13, in <module>
+    from .bisa_transformer import BisaSwinTransformer
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/models/backbones/bisa_transformer.py", line 17, in <module>
+    from .bisa_transformer import BisaSwinTransformer
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/models/backbones/bisa_transformer.py", line 17, in <module>
+    from .bisa import BiDirectionalWindowAttention
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/models/backbones/bisa.py", line 65
+    lambda_req_grad=True
+    ^
+SyntaxError: invalid syntax
+    from .bisa import BiDirectionalWindowAttention
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/models/backbones/bisa.py", line 65
+    lambda_req_grad=True
+    ^
+SyntaxError: invalid syntax
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/multiprocessing/spawn.py", line 116, in spawn_main
+  File "<string>", line 1, in <module>
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/multiprocessing/spawn.py", line 116, in spawn_main
+    exitcode = _main(fd, parent_sentinel)
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/multiprocessing/spawn.py", line 125, in _main
+    exitcode = _main(fd, parent_sentinel)
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/multiprocessing/spawn.py", line 125, in _main
+    prepare(preparation_data)
+    prepare(preparation_data)
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/multiprocessing/spawn.py", line 236, in prepare
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/multiprocessing/spawn.py", line 236, in prepare
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    _fixup_main_from_path(data['init_main_from_path'])
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/multiprocessing/spawn.py", line 287, in _fixup_main_from_path
+    main_content = runpy.run_path(main_path,
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/runpy.py", line 268, in run_path
+    main_content = runpy.run_path(main_path,
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/runpy.py", line 268, in run_path
+    return _run_module_code(code, init_globals, run_name,
+    return _run_module_code(code, init_globals, run_name,
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/runpy.py", line 97, in _run_module_code
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/runpy.py", line 97, in _run_module_code
+    _run_code(code, mod_globals, init_globals,
+    _run_code(code, mod_globals, init_globals,
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/runpy.py", line 87, in _run_code
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+    exec(code, run_globals)
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/tools/train.py", line 13, in <module>
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/tools/train.py", line 13, in <module>
+    from mmseg.apis import set_random_seed, train_segmentor
+    from mmseg.apis import set_random_seed, train_segmentor
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/apis/__init__.py", line 1, in <module>
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/apis/__init__.py", line 1, in <module>
+    from .inference import inference_segmentor, init_segmentor, show_result_pyplot
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/apis/inference.py", line 8, in <module>
+    from mmseg.models import build_segmentor
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/models/__init__.py", line 1, in <module>
+    from .inference import inference_segmentor, init_segmentor, show_result_pyplot
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/apis/inference.py", line 8, in <module>
+    from .backbones import *  # noqa: F401,F403
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/models/backbones/__init__.py", line 13, in <module>
+    from mmseg.models import build_segmentor
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/models/__init__.py", line 1, in <module>
+    from .bisa_transformer import BisaSwinTransformer
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/models/backbones/bisa_transformer.py", line 17, in <module>
+    from .backbones import *  # noqa: F401,F403
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/models/backbones/__init__.py", line 13, in <module>
+    from .bisa_transformer import BisaSwinTransformer
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/models/backbones/bisa_transformer.py", line 17, in <module>
+    from .bisa import BiDirectionalWindowAttention
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/models/backbones/bisa.py", line 65
+    lambda_req_grad=True
+    ^
+    from .bisa import BiDirectionalWindowAttention
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/models/backbones/bisa.py", line 65
+    lambda_req_grad=True
+    ^
+SyntaxError: invalid syntax
+SyntaxError: invalid syntax
+/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/site-packages/torch/distributed/launch.py:178: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use_env is set by default in torchrun.
+If your script expects `--local_rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  warnings.warn(
+Traceback (most recent call last):
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/tools/train.py", line 13, in <module>
+Traceback (most recent call last):
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/tools/train.py", line 13, in <module>
+    from mmseg.apis import set_random_seed, train_segmentor
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/apis/__init__.py", line 1, in <module>
+    from mmseg.apis import set_random_seed, train_segmentor
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/apis/__init__.py", line 1, in <module>
+    from .inference import inference_segmentor, init_segmentor, show_result_pyplot
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/apis/inference.py", line 8, in <module>
+    from .inference import inference_segmentor, init_segmentor, show_result_pyplot
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/apis/inference.py", line 8, in <module>
+    from mmseg.models import build_segmentor
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/models/__init__.py", line 1, in <module>
+    from mmseg.models import build_segmentor
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/models/__init__.py", line 1, in <module>
+    from .backbones import *  # noqa: F401,F403
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/models/backbones/__init__.py", line 14, in <module>
+    from .backbones import *  # noqa: F401,F403
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/models/backbones/__init__.py", line 14, in <module>
+    from .bisa_transformer_ng import BisaSwinTransformerNg
+ModuleNotFoundError: No module named 'mmseg.models.backbones.bisa_transformer_ng'
+    from .bisa_transformer_ng import BisaSwinTransformerNg
+ModuleNotFoundError: No module named 'mmseg.models.backbones.bisa_transformer_ng'
+Traceback (most recent call last):
+Traceback (most recent call last):
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/tools/train.py", line 13, in <module>
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/tools/train.py", line 13, in <module>
+    from mmseg.apis import set_random_seed, train_segmentor
+    from mmseg.apis import set_random_seed, train_segmentor
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/apis/__init__.py", line 1, in <module>
+    from .inference import inference_segmentor, init_segmentor, show_result_pyplot
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/apis/inference.py", line 8, in <module>
+    from mmseg.models import build_segmentor
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/models/__init__.py", line 1, in <module>
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/apis/__init__.py", line 1, in <module>
+    from .backbones import *  # noqa: F401,F403
+    from .inference import inference_segmentor, init_segmentor, show_result_pyplot
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/apis/inference.py", line 8, in <module>
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/models/backbones/__init__.py", line 14, in <module>
+        from .bisa_transformer_ng import BisaSwinTransformerNg
+ModuleNotFoundError: No module named 'mmseg.models.backbones.bisa_transformer_ng'
+from mmseg.models import build_segmentor
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/models/__init__.py", line 1, in <module>
+    from .backbones import *  # noqa: F401,F403
+  File "/coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/mmseg/models/backbones/__init__.py", line 14, in <module>
+    from .bisa_transformer_ng import BisaSwinTransformerNg
+ModuleNotFoundError: No module named 'mmseg.models.backbones.bisa_transformer_ng'
+ERROR:torch.distributed.elastic.multiprocessing.api:failed (exitcode: 1) local_rank: 0 (pid: 27444) of binary: /nethome/bdevnani3/flash1/envs/mmlab/bin/python
+Traceback (most recent call last):
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/site-packages/torch/distributed/launch.py", line 193, in <module>
+    main()
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/site-packages/torch/distributed/launch.py", line 189, in main
+    launch(args)
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/site-packages/torch/distributed/launch.py", line 174, in launch
+    run(args)
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/site-packages/torch/distributed/run.py", line 715, in run
+    elastic_launch(
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 131, in __call__
+    return launch_agent(self._config, self._entrypoint, list(args))
+  File "/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/site-packages/torch/distributed/launcher/api.py", line 245, in launch_agent
+    raise ChildFailedError(
+torch.distributed.elastic.multiprocessing.errors.ChildFailedError: 
+============================================================
+tools/train.py FAILED
+------------------------------------------------------------
+Failures:
+[1]:
+  time      : 2022-05-22_03:56:30
+  host      : sonny.cc.gatech.edu
+  rank      : 1 (local_rank: 1)
+  exitcode  : 1 (pid: 27445)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[2]:
+  time      : 2022-05-22_03:56:30
+  host      : sonny.cc.gatech.edu
+  rank      : 2 (local_rank: 2)
+  exitcode  : 1 (pid: 27446)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+[3]:
+  time      : 2022-05-22_03:56:30
+  host      : sonny.cc.gatech.edu
+  rank      : 3 (local_rank: 3)
+  exitcode  : 1 (pid: 27447)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+------------------------------------------------------------
+Root Cause (first observed failure):
+[0]:
+  time      : 2022-05-22_03:56:30
+  host      : sonny.cc.gatech.edu
+  rank      : 0 (local_rank: 0)
+  exitcode  : 1 (pid: 27444)
+  error_file: <N/A>
+  traceback : To enable traceback see: https://pytorch.org/docs/stable/elastic/errors.html
+============================================================
+/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/site-packages/torch/distributed/launch.py:178: FutureWarning: The module torch.distributed.launch is deprecated
+and will be removed in future. Use torchrun.
+Note that --use_env is set by default in torchrun.
+If your script expects `--local_rank` argument to be set, please
+change it to read from `os.environ['LOCAL_RANK']` instead. See 
+https://pytorch.org/docs/stable/distributed.html#launch-utility for 
+further instructions
+
+  warnings.warn(
+2022-05-22 03:56:48,299 - mmseg - INFO - Environment info:
+------------------------------------------------------------
+sys.platform: linux
+Python: 3.9.12 | packaged by conda-forge | (main, Mar 24 2022, 23:22:55) [GCC 10.3.0]
+CUDA available: True
+GPU 0,1,2,3: A40
+CUDA_HOME: /usr/local/cuda
+NVCC: Cuda compilation tools, release 11.3, V11.3.109
+GCC: gcc (Ubuntu 5.4.0-6ubuntu1~16.04.12) 5.4.0 20160609
+PyTorch: 1.11.0
+PyTorch compiling details: PyTorch built with:
+  - GCC 7.3
+  - C++ Version: 201402
+  - Intel(R) oneAPI Math Kernel Library Version 2021.4-Product Build 20210904 for Intel(R) 64 architecture applications
+  - Intel(R) MKL-DNN v2.5.2 (Git Hash a9302535553c73243c632ad3c4c80beec3d19a1e)
+  - OpenMP 201511 (a.k.a. OpenMP 4.5)
+  - LAPACK is enabled (usually provided by MKL)
+  - NNPACK is enabled
+  - CPU capability usage: AVX2
+  - CUDA Runtime 11.3
+  - NVCC architecture flags: -gencode;arch=compute_37,code=sm_37;-gencode;arch=compute_50,code=sm_50;-gencode;arch=compute_60,code=sm_60;-gencode;arch=compute_61,code=sm_61;-gencode;arch=compute_70,code=sm_70;-gencode;arch=compute_75,code=sm_75;-gencode;arch=compute_80,code=sm_80;-gencode;arch=compute_86,code=sm_86;-gencode;arch=compute_37,code=compute_37
+  - CuDNN 8.2
+  - Magma 2.5.2
+  - Build settings: BLAS_INFO=mkl, BUILD_TYPE=Release, CUDA_VERSION=11.3, CUDNN_VERSION=8.2.0, CXX_COMPILER=/opt/rh/devtoolset-7/root/usr/bin/c++, CXX_FLAGS= -Wno-deprecated -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -fopenmp -DNDEBUG -DUSE_KINETO -DUSE_FBGEMM -DUSE_QNNPACK -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -DEDGE_PROFILER_USE_KINETO -O2 -fPIC -Wno-narrowing -Wall -Wextra -Werror=return-type -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-unused-function -Wno-unused-result -Wno-unused-local-typedefs -Wno-strict-overflow -Wno-strict-aliasing -Wno-error=deprecated-declarations -Wno-stringop-overflow -Wno-psabi -Wno-error=pedantic -Wno-error=redundant-decls -Wno-error=old-style-cast -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized -fno-math-errno -fno-trapping-math -Werror=format -Wno-stringop-overflow, LAPACK_INFO=mkl, PERF_WITH_AVX=1, PERF_WITH_AVX2=1, PERF_WITH_AVX512=1, TORCH_VERSION=1.11.0, USE_CUDA=ON, USE_CUDNN=ON, USE_EXCEPTION_PTR=1, USE_GFLAGS=OFF, USE_GLOG=OFF, USE_MKL=ON, USE_MKLDNN=OFF, USE_MPI=OFF, USE_NCCL=ON, USE_NNPACK=ON, USE_OPENMP=ON, USE_ROCM=OFF, 
+
+TorchVision: 0.12.0
+OpenCV: 4.5.5
+MMCV: 1.5.0
+MMCV Compiler: GCC 7.3
+MMCV CUDA Compiler: 11.3
+MMSegmentation: 0.11.0+7f98bcf
+------------------------------------------------------------
+
+2022-05-22 03:56:48,300 - mmseg - INFO - Distributed training: True
+/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646756402876/work/aten/src/ATen/native/TensorShape.cpp:2228.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646756402876/work/aten/src/ATen/native/TensorShape.cpp:2228.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+2022-05-22 03:56:48,840 - mmseg - INFO - Config:
+norm_cfg = dict(type='SyncBN', requires_grad=True)
+model = dict(
+    type='EncoderDecoder',
+    pretrained=None,
+    backbone=dict(
+        type='BisaSwinTransformer',
+        img_size=512,
+        embed_dims=96,
+        depths=[2, 2, 6, 2],
+        num_heads=[3, 6, 12, 24],
+        window_size=7,
+        mlp_ratio=4.0,
+        qkv_bias=True,
+        qk_scale=None,
+        drop_rate=0.0,
+        attn_drop_rate=0.0,
+        drop_path_rate=0.3,
+        ape=False,
+        patch_norm=True,
+        out_indices=(0, 1, 2, 3),
+        use_checkpoint=False,
+        reverse_attention_locations=[],
+        apply_bidirectional_layer_norms=False,
+        bidirectional_lambda_value=-100.0,
+        lambda_learned=False,
+        embed_dim=96),
+    decode_head=dict(
+        type='UPerHead',
+        in_channels=[96, 192, 384, 768],
+        in_index=[0, 1, 2, 3],
+        pool_scales=(1, 2, 3, 6),
+        channels=512,
+        dropout_ratio=0.1,
+        num_classes=150,
+        norm_cfg=dict(type='SyncBN', requires_grad=True),
+        align_corners=False,
+        loss_decode=dict(
+            type='CrossEntropyLoss', use_sigmoid=False, loss_weight=1.0)),
+    auxiliary_head=dict(
+        type='FCNHead',
+        in_channels=384,
+        in_index=2,
+        channels=256,
+        num_convs=1,
+        concat_input=False,
+        dropout_ratio=0.1,
+        num_classes=150,
+        norm_cfg=dict(type='SyncBN', requires_grad=True),
+        align_corners=False,
+        loss_decode=dict(
+            type='CrossEntropyLoss', use_sigmoid=False, loss_weight=0.4)),
+    train_cfg=dict(),
+    test_cfg=dict(mode='whole'))
+dataset_type = 'ADE20KDataset'
+data_root = 'data/ade/ADEChallengeData2016'
+img_norm_cfg = dict(
+    mean=[123.675, 116.28, 103.53], std=[58.395, 57.12, 57.375], to_rgb=True)
+crop_size = (512, 512)
+train_pipeline = [
+    dict(type='LoadImageFromFile'),
+    dict(type='LoadAnnotations', reduce_zero_label=True),
+    dict(type='Resize', img_scale=(2048, 512), ratio_range=(0.5, 2.0)),
+    dict(type='RandomCrop', crop_size=(512, 512), cat_max_ratio=0.75),
+    dict(type='RandomFlip', prob=0.5),
+    dict(type='PhotoMetricDistortion'),
+    dict(
+        type='Normalize',
+        mean=[123.675, 116.28, 103.53],
+        std=[58.395, 57.12, 57.375],
+        to_rgb=True),
+    dict(type='Pad', size=(512, 512), pad_val=0, seg_pad_val=255),
+    dict(type='DefaultFormatBundle'),
+    dict(type='Collect', keys=['img', 'gt_semantic_seg'])
+]
+test_pipeline = [
+    dict(type='LoadImageFromFile'),
+    dict(
+        type='MultiScaleFlipAug',
+        img_scale=(2048, 512),
+        flip=False,
+        transforms=[
+            dict(type='Resize', keep_ratio=True),
+            dict(type='RandomFlip'),
+            dict(
+                type='Normalize',
+                mean=[123.675, 116.28, 103.53],
+                std=[58.395, 57.12, 57.375],
+                to_rgb=True),
+            dict(type='ImageToTensor', keys=['img']),
+            dict(type='Collect', keys=['img'])
+        ])
+]
+data = dict(
+    samples_per_gpu=2,
+    workers_per_gpu=4,
+    train=dict(
+        type='ADE20KDataset',
+        data_root='data/ade/ADEChallengeData2016',
+        img_dir='images/training',
+        ann_dir='annotations/training',
+        pipeline=[
+            dict(type='LoadImageFromFile'),
+            dict(type='LoadAnnotations', reduce_zero_label=True),
+            dict(type='Resize', img_scale=(2048, 512), ratio_range=(0.5, 2.0)),
+            dict(type='RandomCrop', crop_size=(512, 512), cat_max_ratio=0.75),
+            dict(type='RandomFlip', prob=0.5),
+            dict(type='PhotoMetricDistortion'),
+            dict(
+                type='Normalize',
+                mean=[123.675, 116.28, 103.53],
+                std=[58.395, 57.12, 57.375],
+                to_rgb=True),
+            dict(type='Pad', size=(512, 512), pad_val=0, seg_pad_val=255),
+            dict(type='DefaultFormatBundle'),
+            dict(type='Collect', keys=['img', 'gt_semantic_seg'])
+        ]),
+    val=dict(
+        type='ADE20KDataset',
+        data_root='data/ade/ADEChallengeData2016',
+        img_dir='images/validation',
+        ann_dir='annotations/validation',
+        pipeline=[
+            dict(type='LoadImageFromFile'),
+            dict(
+                type='MultiScaleFlipAug',
+                img_scale=(2048, 512),
+                flip=False,
+                transforms=[
+                    dict(type='Resize', keep_ratio=True),
+                    dict(type='RandomFlip'),
+                    dict(
+                        type='Normalize',
+                        mean=[123.675, 116.28, 103.53],
+                        std=[58.395, 57.12, 57.375],
+                        to_rgb=True),
+                    dict(type='ImageToTensor', keys=['img']),
+                    dict(type='Collect', keys=['img'])
+                ])
+        ]),
+    test=dict(
+        type='ADE20KDataset',
+        data_root='data/ade/ADEChallengeData2016',
+        img_dir='images/validation',
+        ann_dir='annotations/validation',
+        pipeline=[
+            dict(type='LoadImageFromFile'),
+            dict(
+                type='MultiScaleFlipAug',
+                img_scale=(2048, 512),
+                flip=False,
+                transforms=[
+                    dict(type='Resize', keep_ratio=True),
+                    dict(type='RandomFlip'),
+                    dict(
+                        type='Normalize',
+                        mean=[123.675, 116.28, 103.53],
+                        std=[58.395, 57.12, 57.375],
+                        to_rgb=True),
+                    dict(type='ImageToTensor', keys=['img']),
+                    dict(type='Collect', keys=['img'])
+                ])
+        ]))
+log_config = dict(
+    interval=50, hooks=[dict(type='TextLoggerHook', by_epoch=False)])
+dist_params = dict(backend='nccl')
+log_level = 'INFO'
+load_from = None
+resume_from = None
+workflow = [('train', 1)]
+cudnn_benchmark = True
+optimizer = dict(
+    type='AdamW',
+    lr=6e-05,
+    betas=(0.9, 0.999),
+    weight_decay=0.01,
+    paramwise_cfg=dict(
+        custom_keys=dict(
+            absolute_pos_embed=dict(decay_mult=0.0),
+            relative_position_bias_table=dict(decay_mult=0.0),
+            norm=dict(decay_mult=0.0))))
+optimizer_config = dict(
+    type='GradientCumulativeOptimizerHook', cumulative_iters=2)
+lr_config = dict(
+    policy='poly',
+    warmup='linear',
+    warmup_iters=3000,
+    warmup_ratio=1e-06,
+    power=1.0,
+    min_lr=0.0,
+    by_epoch=False)
+runner = dict(type='IterBasedRunner', max_iters=320000)
+checkpoint_config = dict(by_epoch=False, interval=32000)
+evaluation = dict(interval=32000, metric='mIoU')
+work_dir = './work_dirs/bisa_baseline'
+gpu_ids = range(0, 1)
+
+/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646756402876/work/aten/src/ATen/native/TensorShape.cpp:2228.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+/nethome/bdevnani3/flash1/envs/mmlab/lib/python3.9/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646756402876/work/aten/src/ATen/native/TensorShape.cpp:2228.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+2022-05-22 03:56:51,613 - mmseg - INFO - EncoderDecoder(
+  (backbone): BisaSwinTransformer(
+    (patch_embed): PatchEmbed(
+      (proj): Conv2d(3, 96, kernel_size=(4, 4), stride=(4, 4))
+      (norm): LayerNorm((96,), eps=1e-05, elementwise_affine=True)
+    )
+    (pos_drop): Dropout(p=0.0, inplace=False)
+    (layers): ModuleList(
+      (0): BasicLayer(
+        (blocks): ModuleList(
+          (0): SwinTransformerBlock(
+            (norm1): LayerNorm((96,), eps=1e-05, elementwise_affine=True)
+            (attn): BiDirectionalWindowAttention(
+              dim=96, window_size=(7, 7), num_heads=3
+              (activation): GELU()
+              (qkv): Linear(in_features=96, out_features=288, bias=True)
+              (attn_drop): Dropout(p=0.0, inplace=False)
+              (proj): Linear(in_features=96, out_features=96, bias=True)
+              (proj_drop): Dropout(p=0.0, inplace=False)
+              (orthogonal_loss): L1Loss()
+              (softmax): Softmax(dim=-1)
+            )
+            (drop_path): Identity()
+            (norm2): LayerNorm((96,), eps=1e-05, elementwise_affine=True)
+            (mlp): Mlp(
+              (fc1): Linear(in_features=96, out_features=384, bias=True)
+              (act): GELU()
+              (fc2): Linear(in_features=384, out_features=96, bias=True)
+              (drop): Dropout(p=0.0, inplace=False)
+            )
+          )
+          (1): SwinTransformerBlock(
+            (norm1): LayerNorm((96,), eps=1e-05, elementwise_affine=True)
+            (attn): BiDirectionalWindowAttention(
+              dim=96, window_size=(7, 7), num_heads=3
+              (activation): GELU()
+              (qkv): Linear(in_features=96, out_features=288, bias=True)
+              (attn_drop): Dropout(p=0.0, inplace=False)
+              (proj): Linear(in_features=96, out_features=96, bias=True)
+              (proj_drop): Dropout(p=0.0, inplace=False)
+              (orthogonal_loss): L1Loss()
+              (softmax): Softmax(dim=-1)
+            )
+            (drop_path): DropPath()
+            (norm2): LayerNorm((96,), eps=1e-05, elementwise_affine=True)
+            (mlp): Mlp(
+              (fc1): Linear(in_features=96, out_features=384, bias=True)
+              (act): GELU()
+              (fc2): Linear(in_features=384, out_features=96, bias=True)
+              (drop): Dropout(p=0.0, inplace=False)
+            )
+          )
+        )
+        (downsample): PatchMerging(
+          (reduction): Linear(in_features=384, out_features=192, bias=False)
+          (norm): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+        )
+      )
+      (1): BasicLayer(
+        (blocks): ModuleList(
+          (0): SwinTransformerBlock(
+            (norm1): LayerNorm((192,), eps=1e-05, elementwise_affine=True)
+            (attn): BiDirectionalWindowAttention(
+              dim=192, window_size=(7, 7), num_heads=6
+              (activation): GELU()
+              (qkv): Linear(in_features=192, out_features=576, bias=True)
+              (attn_drop): Dropout(p=0.0, inplace=False)
+              (proj): Linear(in_features=192, out_features=192, bias=True)
+              (proj_drop): Dropout(p=0.0, inplace=False)
+              (orthogonal_loss): L1Loss()
+              (softmax): Softmax(dim=-1)
+            )
+            (drop_path): DropPath()
+            (norm2): LayerNorm((192,), eps=1e-05, elementwise_affine=True)
+            (mlp): Mlp(
+              (fc1): Linear(in_features=192, out_features=768, bias=True)
+              (act): GELU()
+              (fc2): Linear(in_features=768, out_features=192, bias=True)
+              (drop): Dropout(p=0.0, inplace=False)
+            )
+          )
+          (1): SwinTransformerBlock(
+            (norm1): LayerNorm((192,), eps=1e-05, elementwise_affine=True)
+            (attn): BiDirectionalWindowAttention(
+              dim=192, window_size=(7, 7), num_heads=6
+              (activation): GELU()
+              (qkv): Linear(in_features=192, out_features=576, bias=True)
+              (attn_drop): Dropout(p=0.0, inplace=False)
+              (proj): Linear(in_features=192, out_features=192, bias=True)
+              (proj_drop): Dropout(p=0.0, inplace=False)
+              (orthogonal_loss): L1Loss()
+              (softmax): Softmax(dim=-1)
+            )
+            (drop_path): DropPath()
+            (norm2): LayerNorm((192,), eps=1e-05, elementwise_affine=True)
+            (mlp): Mlp(
+              (fc1): Linear(in_features=192, out_features=768, bias=True)
+              (act): GELU()
+              (fc2): Linear(in_features=768, out_features=192, bias=True)
+              (drop): Dropout(p=0.0, inplace=False)
+            )
+          )
+        )
+        (downsample): PatchMerging(
+          (reduction): Linear(in_features=768, out_features=384, bias=False)
+          (norm): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+        )
+      )
+      (2): BasicLayer(
+        (blocks): ModuleList(
+          (0): SwinTransformerBlock(
+            (norm1): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+            (attn): BiDirectionalWindowAttention(
+              dim=384, window_size=(7, 7), num_heads=12
+              (activation): GELU()
+              (qkv): Linear(in_features=384, out_features=1152, bias=True)
+              (attn_drop): Dropout(p=0.0, inplace=False)
+              (proj): Linear(in_features=384, out_features=384, bias=True)
+              (proj_drop): Dropout(p=0.0, inplace=False)
+              (orthogonal_loss): L1Loss()
+              (softmax): Softmax(dim=-1)
+            )
+            (drop_path): DropPath()
+            (norm2): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+            (mlp): Mlp(
+              (fc1): Linear(in_features=384, out_features=1536, bias=True)
+              (act): GELU()
+              (fc2): Linear(in_features=1536, out_features=384, bias=True)
+              (drop): Dropout(p=0.0, inplace=False)
+            )
+          )
+          (1): SwinTransformerBlock(
+            (norm1): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+            (attn): BiDirectionalWindowAttention(
+              dim=384, window_size=(7, 7), num_heads=12
+              (activation): GELU()
+              (qkv): Linear(in_features=384, out_features=1152, bias=True)
+              (attn_drop): Dropout(p=0.0, inplace=False)
+              (proj): Linear(in_features=384, out_features=384, bias=True)
+              (proj_drop): Dropout(p=0.0, inplace=False)
+              (orthogonal_loss): L1Loss()
+              (softmax): Softmax(dim=-1)
+            )
+            (drop_path): DropPath()
+            (norm2): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+            (mlp): Mlp(
+              (fc1): Linear(in_features=384, out_features=1536, bias=True)
+              (act): GELU()
+              (fc2): Linear(in_features=1536, out_features=384, bias=True)
+              (drop): Dropout(p=0.0, inplace=False)
+            )
+          )
+          (2): SwinTransformerBlock(
+            (norm1): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+            (attn): BiDirectionalWindowAttention(
+              dim=384, window_size=(7, 7), num_heads=12
+              (activation): GELU()
+              (qkv): Linear(in_features=384, out_features=1152, bias=True)
+              (attn_drop): Dropout(p=0.0, inplace=False)
+              (proj): Linear(in_features=384, out_features=384, bias=True)
+              (proj_drop): Dropout(p=0.0, inplace=False)
+              (orthogonal_loss): L1Loss()
+              (softmax): Softmax(dim=-1)
+            )
+            (drop_path): DropPath()
+            (norm2): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+            (mlp): Mlp(
+              (fc1): Linear(in_features=384, out_features=1536, bias=True)
+              (act): GELU()
+              (fc2): Linear(in_features=1536, out_features=384, bias=True)
+              (drop): Dropout(p=0.0, inplace=False)
+            )
+          )
+          (3): SwinTransformerBlock(
+            (norm1): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+            (attn): BiDirectionalWindowAttention(
+              dim=384, window_size=(7, 7), num_heads=12
+              (activation): GELU()
+              (qkv): Linear(in_features=384, out_features=1152, bias=True)
+              (attn_drop): Dropout(p=0.0, inplace=False)
+              (proj): Linear(in_features=384, out_features=384, bias=True)
+              (proj_drop): Dropout(p=0.0, inplace=False)
+              (orthogonal_loss): L1Loss()
+              (softmax): Softmax(dim=-1)
+            )
+            (drop_path): DropPath()
+            (norm2): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+            (mlp): Mlp(
+              (fc1): Linear(in_features=384, out_features=1536, bias=True)
+              (act): GELU()
+              (fc2): Linear(in_features=1536, out_features=384, bias=True)
+              (drop): Dropout(p=0.0, inplace=False)
+            )
+          )
+          (4): SwinTransformerBlock(
+            (norm1): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+            (attn): BiDirectionalWindowAttention(
+              dim=384, window_size=(7, 7), num_heads=12
+              (activation): GELU()
+              (qkv): Linear(in_features=384, out_features=1152, bias=True)
+              (attn_drop): Dropout(p=0.0, inplace=False)
+              (proj): Linear(in_features=384, out_features=384, bias=True)
+              (proj_drop): Dropout(p=0.0, inplace=False)
+              (orthogonal_loss): L1Loss()
+              (softmax): Softmax(dim=-1)
+            )
+            (drop_path): DropPath()
+            (norm2): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+            (mlp): Mlp(
+              (fc1): Linear(in_features=384, out_features=1536, bias=True)
+              (act): GELU()
+              (fc2): Linear(in_features=1536, out_features=384, bias=True)
+              (drop): Dropout(p=0.0, inplace=False)
+            )
+          )
+          (5): SwinTransformerBlock(
+            (norm1): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+            (attn): BiDirectionalWindowAttention(
+              dim=384, window_size=(7, 7), num_heads=12
+              (activation): GELU()
+              (qkv): Linear(in_features=384, out_features=1152, bias=True)
+              (attn_drop): Dropout(p=0.0, inplace=False)
+              (proj): Linear(in_features=384, out_features=384, bias=True)
+              (proj_drop): Dropout(p=0.0, inplace=False)
+              (orthogonal_loss): L1Loss()
+              (softmax): Softmax(dim=-1)
+            )
+            (drop_path): DropPath()
+            (norm2): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+            (mlp): Mlp(
+              (fc1): Linear(in_features=384, out_features=1536, bias=True)
+              (act): GELU()
+              (fc2): Linear(in_features=1536, out_features=384, bias=True)
+              (drop): Dropout(p=0.0, inplace=False)
+            )
+          )
+        )
+        (downsample): PatchMerging(
+          (reduction): Linear(in_features=1536, out_features=768, bias=False)
+          (norm): LayerNorm((1536,), eps=1e-05, elementwise_affine=True)
+        )
+      )
+      (3): BasicLayer(
+        (blocks): ModuleList(
+          (0): SwinTransformerBlock(
+            (norm1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (attn): BiDirectionalWindowAttention(
+              dim=768, window_size=(7, 7), num_heads=24
+              (activation): GELU()
+              (qkv): Linear(in_features=768, out_features=2304, bias=True)
+              (attn_drop): Dropout(p=0.0, inplace=False)
+              (proj): Linear(in_features=768, out_features=768, bias=True)
+              (proj_drop): Dropout(p=0.0, inplace=False)
+              (orthogonal_loss): L1Loss()
+              (softmax): Softmax(dim=-1)
+            )
+            (drop_path): DropPath()
+            (norm2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Mlp(
+              (fc1): Linear(in_features=768, out_features=3072, bias=True)
+              (act): GELU()
+              (fc2): Linear(in_features=3072, out_features=768, bias=True)
+              (drop): Dropout(p=0.0, inplace=False)
+            )
+          )
+          (1): SwinTransformerBlock(
+            (norm1): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (attn): BiDirectionalWindowAttention(
+              dim=768, window_size=(7, 7), num_heads=24
+              (activation): GELU()
+              (qkv): Linear(in_features=768, out_features=2304, bias=True)
+              (attn_drop): Dropout(p=0.0, inplace=False)
+              (proj): Linear(in_features=768, out_features=768, bias=True)
+              (proj_drop): Dropout(p=0.0, inplace=False)
+              (orthogonal_loss): L1Loss()
+              (softmax): Softmax(dim=-1)
+            )
+            (drop_path): DropPath()
+            (norm2): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+            (mlp): Mlp(
+              (fc1): Linear(in_features=768, out_features=3072, bias=True)
+              (act): GELU()
+              (fc2): Linear(in_features=3072, out_features=768, bias=True)
+              (drop): Dropout(p=0.0, inplace=False)
+            )
+          )
+        )
+      )
+    )
+    (norm0): LayerNorm((96,), eps=1e-05, elementwise_affine=True)
+    (norm1): LayerNorm((192,), eps=1e-05, elementwise_affine=True)
+    (norm2): LayerNorm((384,), eps=1e-05, elementwise_affine=True)
+    (norm3): LayerNorm((768,), eps=1e-05, elementwise_affine=True)
+  )
+  (decode_head): UPerHead(
+    input_transform=multiple_select, ignore_index=255, align_corners=False
+    (loss_decode): CrossEntropyLoss()
+    (conv_seg): Conv2d(512, 150, kernel_size=(1, 1), stride=(1, 1))
+    (dropout): Dropout2d(p=0.1, inplace=False)
+    (psp_modules): PPM(
+      (0): Sequential(
+        (0): AdaptiveAvgPool2d(output_size=1)
+        (1): ConvModule(
+          (conv): Conv2d(768, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (activate): ReLU(inplace=True)
+        )
+      )
+      (1): Sequential(
+        (0): AdaptiveAvgPool2d(output_size=2)
+        (1): ConvModule(
+          (conv): Conv2d(768, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (activate): ReLU(inplace=True)
+        )
+      )
+      (2): Sequential(
+        (0): AdaptiveAvgPool2d(output_size=3)
+        (1): ConvModule(
+          (conv): Conv2d(768, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (activate): ReLU(inplace=True)
+        )
+      )
+      (3): Sequential(
+        (0): AdaptiveAvgPool2d(output_size=6)
+        (1): ConvModule(
+          (conv): Conv2d(768, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+          (bn): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+          (activate): ReLU(inplace=True)
+        )
+      )
+    )
+    (bottleneck): ConvModule(
+      (conv): Conv2d(2816, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (activate): ReLU(inplace=True)
+    )
+    (lateral_convs): ModuleList(
+      (0): ConvModule(
+        (conv): Conv2d(96, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (activate): ReLU()
+      )
+      (1): ConvModule(
+        (conv): Conv2d(192, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (activate): ReLU()
+      )
+      (2): ConvModule(
+        (conv): Conv2d(384, 512, kernel_size=(1, 1), stride=(1, 1), bias=False)
+        (bn): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (activate): ReLU()
+      )
+    )
+    (fpn_convs): ModuleList(
+      (0): ConvModule(
+        (conv): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (activate): ReLU()
+      )
+      (1): ConvModule(
+        (conv): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (activate): ReLU()
+      )
+      (2): ConvModule(
+        (conv): Conv2d(512, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (activate): ReLU()
+      )
+    )
+    (fpn_bottleneck): ConvModule(
+      (conv): Conv2d(2048, 512, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+      (bn): SyncBatchNorm(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+      (activate): ReLU(inplace=True)
+    )
+  )
+  (auxiliary_head): FCNHead(
+    input_transform=None, ignore_index=255, align_corners=False
+    (loss_decode): CrossEntropyLoss()
+    (conv_seg): Conv2d(256, 150, kernel_size=(1, 1), stride=(1, 1))
+    (dropout): Dropout2d(p=0.1, inplace=False)
+    (convs): Sequential(
+      (0): ConvModule(
+        (conv): Conv2d(384, 256, kernel_size=(3, 3), stride=(1, 1), padding=(1, 1), bias=False)
+        (bn): SyncBatchNorm(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+        (activate): ReLU(inplace=True)
+      )
+    )
+  )
+)
+2022-05-22 03:56:52,019 - mmseg - INFO - Loaded 20210 images
+2022-05-22 03:56:55,431 - mmseg - INFO - Loaded 2000 images
+2022-05-22 03:56:55,431 - mmseg - INFO - Start running, host: bdevnani3@sonny, work_dir: /coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/work_dirs/bisa_baseline
+2022-05-22 03:56:55,432 - mmseg - INFO - Hooks will be executed in the following order:
+before_run:
+(VERY_HIGH   ) PolyLrUpdaterHook                  
+(NORMAL      ) CheckpointHook                     
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_train_epoch:
+(VERY_HIGH   ) PolyLrUpdaterHook                  
+(LOW         ) IterTimerHook                      
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_train_iter:
+(VERY_HIGH   ) PolyLrUpdaterHook                  
+(LOW         ) IterTimerHook                      
+ -------------------- 
+after_train_iter:
+(ABOVE_NORMAL) GradientCumulativeOptimizerHook    
+(NORMAL      ) CheckpointHook                     
+(NORMAL      ) DistEvalHook                       
+(LOW         ) IterTimerHook                      
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+after_train_epoch:
+(NORMAL      ) CheckpointHook                     
+(NORMAL      ) DistEvalHook                       
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_val_epoch:
+(LOW         ) IterTimerHook                      
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+before_val_iter:
+(LOW         ) IterTimerHook                      
+ -------------------- 
+after_val_iter:
+(LOW         ) IterTimerHook                      
+ -------------------- 
+after_val_epoch:
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+after_run:
+(VERY_LOW    ) TextLoggerHook                     
+ -------------------- 
+2022-05-22 03:56:55,432 - mmseg - INFO - workflow: [('train', 1)], max: 320000 iters
+2022-05-22 03:56:55,432 - mmseg - INFO - Checkpoints will be saved to /coc/testnvme/bdevnani3/Swin-Transformer-Semantic-Segmentation/work_dirs/bisa_baseline by HardDiskBackend.
+2022-05-22 03:57:12,032 - mmseg - WARNING - GradientCumulativeOptimizerHook may slightly decrease performance if the model has BatchNorm layers.
+2022-05-22 03:57:15,946 - mmcv - INFO - Reducer buckets have been rebuilt in this iteration.
+2022-05-22 03:57:28,068 - mmseg - INFO - Iter [50/320000]	lr: 9.799e-07, eta: 1 day, 11:30:00, time: 0.399, data_time: 0.008, memory: 35360, decode.loss_seg: 4.1348, decode.acc_seg: 0.5655, aux.loss_seg: 1.6581, aux.acc_seg: 0.4805, loss: 5.7930
+2022-05-22 03:57:40,448 - mmseg - INFO - Iter [100/320000]	lr: 1.979e-06, eta: 1 day, 4:44:47, time: 0.248, data_time: 0.003, memory: 35360, decode.loss_seg: 4.0628, decode.acc_seg: 1.6593, aux.loss_seg: 1.6346, aux.acc_seg: 0.6875, loss: 5.6973
+2022-05-22 03:57:52,662 - mmseg - INFO - Iter [150/320000]	lr: 2.979e-06, eta: 1 day, 2:23:46, time: 0.244, data_time: 0.003, memory: 35360, decode.loss_seg: 4.0138, decode.acc_seg: 6.4086, aux.loss_seg: 1.6284, aux.acc_seg: 0.9384, loss: 5.6422
+2022-05-22 03:58:04,844 - mmseg - INFO - Iter [200/320000]	lr: 3.978e-06, eta: 1 day, 1:12:08, time: 0.244, data_time: 0.003, memory: 35360, decode.loss_seg: 3.9215, decode.acc_seg: 10.6301, aux.loss_seg: 1.6092, aux.acc_seg: 1.1228, loss: 5.5308
+2022-05-22 03:58:16,905 - mmseg - INFO - Iter [250/320000]	lr: 4.976e-06, eta: 1 day, 0:26:42, time: 0.241, data_time: 0.003, memory: 35360, decode.loss_seg: 3.8224, decode.acc_seg: 13.5078, aux.loss_seg: 1.5889, aux.acc_seg: 1.7668, loss: 5.4114

@@ -23,6 +23,7 @@ model = dict(
         reverse_attention_locations=[],
         apply_bidirectional_layer_norms=False,
         bidirectional_lambda_value=0.,
+        lambda_learned=False,
     ),
     decode_head=dict(
         type="UPerHead",

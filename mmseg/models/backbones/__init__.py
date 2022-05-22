@@ -15,6 +15,6 @@ from .bisa_transformer import BisaSwinTransformer
 __all__ = [
     'ResNet', 'ResNetV1c', 'ResNetV1d', 'ResNeXt', 'HRNet', 'FastSCNN',
     'ResNeSt', 'MobileNetV2', 'UNet', 'CGNet', 'MobileNetV3', 'SwinTransformer', 
-    'BiAttnSwinTransformer', 'OurSwinTransformer', "BisaSwinTransformer",
+    'BiAttnSwinTransformer', 'OurSwinTransformer', "BisaSwinTransformer"
 ]
 

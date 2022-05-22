@@ -61,7 +61,8 @@ class BiDirectionalWindowAttention(nn.Module):
         proj_drop=0.,
         is_bidirectional=False,
         add_layer_norms=False,
-        lambda_value=0.
+        lambda_value=0.,
+        lambda_learned=False
     ):
         super().__init__()
         
@@ -79,6 +80,7 @@ class BiDirectionalWindowAttention(nn.Module):
         self.activation = nn.GELU()
         self.add_layer_norms = add_layer_norms
         self.lambda_value = lambda_value
+        self.lambda_req_grad = lambda_learned
 
         self.reverse_parameters = []
         self.forward_parameters = []
@@ -123,7 +125,7 @@ class BiDirectionalWindowAttention(nn.Module):
             self.local_proj = nn.Linear(self.dim, self.dim, bias=self.qkv_bias)
             self.global_proj = nn.Linear(self.dim, self.dim, bias=self.qkv_bias)
 
-            self.selection_lambda = nn.Parameter(torch.tensor(self.lambda_value, requires_grad=True))
+            self.selection_lambda = nn.Parameter(torch.tensor(self.lambda_value, requires_grad=self.lambda_req_grad))
 
             if self.add_layer_norms:
                 self.msa_norm = nn.LayerNorm(normalized_shape=self.dim, elementwise_affine=False)

@@ -17,6 +17,7 @@ model = dict(
         patch_norm=True,
         apply_bidirectional_layer_norms= False,
         bidirectional_lambda_value=-100.0, # learning
+        lambda_learned=True,
 
     ),
     decode_head=dict(in_channels=[96, 192, 384, 768], num_classes=150),
