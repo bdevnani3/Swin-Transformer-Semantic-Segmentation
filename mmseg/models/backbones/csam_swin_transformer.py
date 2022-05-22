@@ -746,7 +746,7 @@ class SwinTransformerBlock(nn.Module):
             H, W: Spatial resolution of the input feature.
             mask_matrix: Attention mask for cyclic shift.
         """
-        # import pdb; pdb.set_trace()
+        import pdb; pdb.set_trace()
         B, L, C = x.shape
         H, W = self.H, self.W
         assert L == H * W, "input feature has wrong size"
@@ -1010,6 +1010,7 @@ class PatchEmbed(nn.Module):
 
     def forward(self, x):
         """Forward function."""
+        # import pdb; pdb.set_trace()
         # padding
         _, _, H, W = x.size()
         if W % self.patch_size[1] != 0:
@@ -1023,7 +1024,9 @@ class PatchEmbed(nn.Module):
             x = x.flatten(2).transpose(1, 2)
             x = self.norm(x)
             x = x.transpose(1, 2).view(-1, self.embed_dim, Wh, Ww)
-
+        
+        # torch.Size([2, 96, 128, 128]) -> train
+        # torch.Size([1, 96, 128, 171])
         return x
 
 
@@ -1204,7 +1207,6 @@ class BiAttnSwinTransformer(nn.Module):
     def forward(self, x):
         """Forward function."""
         # import pdb; pdb.set_trace()
-        import pdb; pdb.set_trace()
         x = self.patch_embed(x)
         Wh, Ww = x.size(2), x.size(3)
         if self.ape:
@@ -1233,7 +1235,7 @@ class BiAttnSwinTransformer(nn.Module):
                     .contiguous()
                 )
                 outs.append(out)
-
+        
         return tuple(outs)
 
     def flops(self):

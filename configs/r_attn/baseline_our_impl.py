@@ -5,9 +5,6 @@ _base_ = [
     "../_base_/schedules/schedule_320k.py",
 ]
 
-# custom_imports = dict(
-#     imports=['mmcv.runner.hooks.optimizer'],
-#     allow_failed_imports=False)
 
 model = dict(
     backbone=dict(
