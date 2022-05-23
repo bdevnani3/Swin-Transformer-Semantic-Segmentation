@@ -2,7 +2,7 @@ _base_ = [
     "../_base_/models/upernet_bisa_swin_transformer.py",
     "../_base_/datasets/ade20k.py",
     "../_base_/default_runtime.py",
-    "../_base_/schedules/schedule_320k.py",
+    "../_base_/schedules/schedule_80k.py",  #CHANGE TO 240 in second stage
 ]
 
 
@@ -19,7 +19,6 @@ model = dict(
         bidirectional_lambda_value=-100.0, # lambda = 0
         lambda_learned=False,
         finetuning_stage_1=True,
-
     ),
     decode_head=dict(in_channels=[96, 192, 384, 768], num_classes=150),
     auxiliary_head=dict(in_channels=384, num_classes=150),
