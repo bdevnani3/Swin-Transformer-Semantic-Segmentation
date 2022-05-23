@@ -512,6 +512,7 @@ class BisaSwinTransformer(nn.Module):
         lambda_learned=False,
         out_indices=(0, 1, 2, 3),
         frozen_stages=-1,
+        finetuning_stage_1=False,
         **kwargs,
     ):
 
@@ -526,6 +527,8 @@ class BisaSwinTransformer(nn.Module):
         self.mlp_ratio = mlp_ratio
         self.out_indices = out_indices
         self.frozen_stages = frozen_stages
+        self.finetuning_stage_1 = finetuning_stage_1
+        self.reverse_attention_locations = reverse_attention_locations
 
         # split image into non-overlapping patches
         self.patch_embed = PatchEmbed(
@@ -605,6 +608,16 @@ class BisaSwinTransformer(nn.Module):
                 m.eval()
                 for param in m.parameters():
                     param.requires_grad = False
+
+        if self.finetuning_stage_1 == True:
+            for i in range(self.num_layers):
+                if i in self.reverse_attention_locations:
+                    continue
+                m = self.layers[i]
+                m.eval()
+                for param in m.parameters():
+                    param.requires_grad = False
+
 
     def init_weights(self, pretrained=None):
 

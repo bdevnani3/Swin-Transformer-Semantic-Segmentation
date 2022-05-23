@@ -24,6 +24,7 @@ model = dict(
         apply_bidirectional_layer_norms=False,
         bidirectional_lambda_value=0.,
         lambda_learned=False,
+        finetuning_stage_1=False,
     ),
     decode_head=dict(
         type="UPerHead",
