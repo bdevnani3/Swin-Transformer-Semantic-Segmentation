@@ -2,9 +2,8 @@ _base_ = [
     "../_base_/models/upernet_bisa_swin_transformer.py",
     "../_base_/datasets/ade20k.py",
     "../_base_/default_runtime.py",
-    "../_base_/schedules/schedule_80k.py",  #CHANGE TO 240 in second stage
+    "../_base_/schedules/schedule_240k.py",  #CHANGE TO 240 in second stage
 ]
-
 
 model = dict(
     backbone=dict(
@@ -12,13 +11,13 @@ model = dict(
         depths=[2, 2, 6, 2],
         num_heads=[3, 6, 12, 24],
         window_size=7,
-        reverse_attention_locations=[],
+        reverse_attention_locations=[1],
         drop_path_rate=0.3,
         patch_norm=True,
-        apply_bidirectional_layer_norms= False, # no norm
-        bidirectional_lambda_value=-100.0, # lambda = 0
-        lambda_learned=False,
-        finetuning_stage_1=True,
+        apply_bidirectional_layer_norms= True,
+        bidirectional_lambda_value=-100.0, #learned
+        lambda_learned=True,
+        finetuning_stage_1=False,
     ),
     decode_head=dict(in_channels=[96, 192, 384, 768], num_classes=150),
     auxiliary_head=dict(in_channels=384, num_classes=150),
@@ -28,7 +27,7 @@ model = dict(
 optimizer = dict(
     _delete_=True,
     type="AdamW",
-    lr=0.006,
+    lr=0.00006,
     betas=(0.9, 0.999),
     weight_decay=0.01,
     paramwise_cfg=dict(
