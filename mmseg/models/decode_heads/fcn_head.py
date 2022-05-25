@@ -23,7 +23,9 @@ class FCNHead(BaseDecodeHead):
                  num_convs=2,
                  kernel_size=3,
                  concat_input=True,
+                 freeze_all=False,
                  **kwargs):
+        
         assert num_convs >= 0
         self.num_convs = num_convs
         self.concat_input = concat_input
@@ -65,6 +67,11 @@ class FCNHead(BaseDecodeHead):
                 conv_cfg=self.conv_cfg,
                 norm_cfg=self.norm_cfg,
                 act_cfg=self.act_cfg)
+
+        if freeze_all:
+            self.eval()
+            for param in self.parameters():
+                param.requires_grad = False
 
     def forward(self, inputs):
         """Forward function."""

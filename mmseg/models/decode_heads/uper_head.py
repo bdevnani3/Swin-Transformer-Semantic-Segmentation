@@ -1,3 +1,4 @@
+from pickle import TRUE
 import torch
 import torch.nn as nn
 from mmcv.cnn import ConvModule
@@ -20,7 +21,8 @@ class UPerHead(BaseDecodeHead):
             Module applied on the last feature. Default: (1, 2, 3, 6).
     """
 
-    def __init__(self, pool_scales=(1, 2, 3, 6), **kwargs):
+    def __init__(self, pool_scales=(1, 2, 3, 6), freeze_all=False, **kwargs):
+
         super(UPerHead, self).__init__(
             input_transform='multiple_select', **kwargs)
         # PSP Module
@@ -72,6 +74,13 @@ class UPerHead(BaseDecodeHead):
             conv_cfg=self.conv_cfg,
             norm_cfg=self.norm_cfg,
             act_cfg=self.act_cfg)
+        
+        if freeze_all:
+            self.eval()
+            for param in self.parameters():
+                param.requires_grad = False
+
+
 
     def psp_forward(self, inputs):
         """Forward function of PSP module."""
